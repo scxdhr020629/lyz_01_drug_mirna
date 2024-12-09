@@ -33,6 +33,15 @@ def one_of_k_encoding_unk(x, allowable_set):
         x = allowable_set[-1]
     return list(map(lambda s: x == s, allowable_set))
 
+def process_smiles(smiles):
+    try:
+        mol = Chem.MolFromSmiles(smiles)
+        if mol:
+            return Chem.MolToSmiles(mol, isomericSmiles=True)
+        else:
+            return None
+    except:
+        return None
 
 def smile_to_graph(smile):
     mol = Chem.MolFromSmiles(smile)
@@ -81,6 +90,7 @@ CHARISOSMILEN = 66
 
 
 #all_prots 列表中存储了所有数据集中出现的蛋白质序列，这些蛋白质序列将被用于后续的数据处理和模型训练。
+# from DeepDTA data
 all_prots = []
 fpath='data/'
 # 读取整个 Excel 文件
@@ -89,106 +99,79 @@ rna = pd.read_excel('data/miRNA_sequences.xlsx')
 ligands = drugs['smiles']
 proteins = rna['Sequence']
 
-ass=pd.read_excel('data/miRNA_drug_matrix.xlsx', index_col=0)   # 关系矩阵导入
-Positive = json.load(open("data/Positive.txt"))
-Negetive = json.load(open("data/Negative.txt"))
-Potrain_fold=[[] for i in range(5)]
-Netrain_fold=[[] for i in range(5)]
-Povalid_fold=[[] for i in range(5)]
-Nevalid_fold=[[] for i in range(5)]
-Po_subset = [[] for i in range(5)]
-Ne_subset=[[] for i in range(5)]
-for i in  range(5):
-    Po_subset[i] = [ee for ee in Positive[i]]
-    Ne_subset[i] = [ee for ee in Negetive[i]]
-for i in range(5):
-    for j in range(5):
-        if i == j:
-            continue
-        Potrain_fold[i] += Po_subset[j]
-        Netrain_fold[i] += Ne_subset[j]
-    Povalid_fold[i] = Po_subset[i]
-    Nevalid_fold[i] = Ne_subset[i]
+df2 = pd.read_excel('data/drug_id_smiles.xlsx', sheet_name=0)
+df2.columns = ['DrugBank_ID', 'smiles']
+df2['smiles'] = df2['smiles'].apply(process_smiles)
 
-drugs = []
-prots = []
-for d in ligands.keys():
-    lg = Chem.MolToSmiles(Chem.MolFromSmiles(ligands[d]), isomericSmiles=True)
-    drugs.append(lg)
-for t in proteins.keys():
-    prots.append(proteins[t])
-
-affinity = np.asarray(ass)
+df3 = pd.read_excel('data/miRNA_sequences.xlsx', sheet_name=0)
+df3.columns = ['mirna_id', 'Sequence']
+df3['mirna_id'] = df3['mirna_id'].astype(str).str.strip()
 
 opts = ['train', 'test']
-
 for opt in opts:
-    po_rows, po_cols = np.where(ass.values == 1)
-    ne_rows, ne_cols = np.where(ass.values != 1)
-    for i in range(5):
-        if opt == 'train':
-            rows = np.concatenate((po_rows[Potrain_fold[i]], ne_rows[Netrain_fold[i]]))
-            cols = np.concatenate((po_cols[Potrain_fold[i]], ne_cols[Netrain_fold[i]]))
-        elif opt == 'test':
-            rows = np.concatenate((po_rows[Povalid_fold[i]], ne_rows[Nevalid_fold[i]]))
-            cols = np.concatenate((po_cols[Povalid_fold[i]], ne_cols[Nevalid_fold[i]]))
 
-        with open('data/processed/'+ opt +str(i)+ '.csv', 'w') as f:
-            f.write('compound_iso_smiles,target_sequence,affinity\n')
-            for pair_ind in range(len(rows)):
-                ls = []
-                ls += [drugs[cols[pair_ind]]]
-                ls += [prots[rows[pair_ind]]]
-                ls += [affinity[rows[pair_ind], cols[pair_ind]]]
-                f.write(','.join(map(str, ls)) + '\n')
+    for i in range(1, 2):
+        # Step 1: 读取第一个文件 (txt格式: 药物id, mirnaID, 关联值)
+        file1 = 'data/processed/'+opt+'.txt'
+        df1 = pd.read_csv(file1, sep=',', header=None, names=['DrugBank_ID', 'mirna_id', 'association_value'])
+        df1['mirna_id'] = df1['mirna_id'].astype(str).str.strip()
+        df1['DrugBank_ID'] = df1['DrugBank_ID'].astype(str).str.strip()
+        # 合并df1和df2
+        merged_df1 = pd.merge(df1, df3, on='mirna_id', how='left')
+        # 合并merged_df1和df3
+        final_df = pd.merge(merged_df1, df2, on='DrugBank_ID', how='left')
+        # 选择需要的列
+        final_df = final_df[['smiles', 'Sequence', 'association_value']]
+        final_df.columns = ['compound_iso_smiles', 'target_sequence', 'affinity']
 
+        # Step 5: 保存为CSV文件
+        output_file = 'data/processed/last/_'+opt+str(i)+'.csv'
+        final_df.to_csv(output_file, index=False)
 
-all_prots += list(set(prots))
 seq_voc = "ACGU"
 seq_dict = {v: (i + 1) for i, v in enumerate(seq_voc)}
 seq_dict_len = len(seq_dict)
 
-compound_iso_smiles = []
 
 
+#药物图处理过程
 opts = ['train', 'test']
+for i in range(1, 2):
+    compound_iso_smiles = []
+    for opt in opts:
+        df = pd.read_csv('data/processed/last/' + '_' + opt +str(i)+ '.csv')
+        compound_iso_smiles += list(df['compound_iso_smiles'])
+    compound_iso_smiles = set(compound_iso_smiles)
+    smile_graph = {}
+    for smile in compound_iso_smiles:
+        g = smile_to_graph(smile)
+        smile_graph[smile] = g
 
-for opt in opts:
-    df = pd.read_csv('data/processed/' + opt +str(i)+ '.csv')
-    compound_iso_smiles += list(df['compound_iso_smiles'])
-compound_iso_smiles = set(compound_iso_smiles)
-smile_graph = {}
-for smile in compound_iso_smiles:
-    g = smile_to_graph(smile)
-    smile_graph[smile] = g
+    # convert to PyTorch data format
 
-
-
-# 数据处理转换成需要的格式内容
-for i in range(5):
     processed_data_file_train = 'data/processed/'  + '_train'+str(i)+'.pt'
     processed_data_file_test = 'data/processed/'+ '_test'+str(i)+'.pt'
     if ((not os.path.isfile(processed_data_file_train)) or (not os.path.isfile(processed_data_file_test))):
-        df = pd.read_csv('data/processed/train' + str(i)+ '.csv')
+        df = pd.read_csv('data/processed/last/' + '_train' + str(i)+ '.csv')
         train_drugs, train_prots, train_Y = list(df['compound_iso_smiles']), list(df['target_sequence']), list(
             df['affinity'])
         XT = [seq_cat(t,24) for t in train_prots]
         train_sdrugs = [label_smiles(t, CHARISOSMISET, 100) for t in train_drugs]
         train_drugs, train_prots, train_Y,train_seqdrugs = np.asarray(train_drugs), np.asarray(XT), np.asarray(train_Y),np.asarray(train_sdrugs)
-        df = pd.read_csv('data/processed/test'+str(i)+ '.csv')
+        df = pd.read_csv('data/processed/last/'+ '_test'+str(i)+'.csv')
         test_drugs, test_prots, test_Y = list(df['compound_iso_smiles']), list(df['target_sequence']), list(
             df['affinity'])
         XT = [seq_cat(t,24) for t in test_prots]
         test_sdrugs=[label_smiles(t,CHARISOSMISET,100) for t in test_drugs]
         test_drugs, test_prots, test_Y,test_seqdrugs = np.asarray(test_drugs), np.asarray(XT), np.asarray(test_Y),np.asarray(test_sdrugs)
 
+        # make data PyTorch Geometric ready
+        print('preparing _train',i, '.pt in pytorch format!')
 
-        print('preparing NO:', i,'train.pt in pytorch format!')
-
-        train_data = TestbedDataset(root='data/',dataset='train'+str(i), xd=train_drugs, xt=train_prots, y=train_Y, z=train_seqdrugs,
+        train_data = TestbedDataset(root='data',dataset='_train'+str(i), xd=train_drugs, xt=train_prots, y=train_Y, z=train_seqdrugs,
                                     smile_graph=smile_graph)
-        print('preparing ',   '_test.pt in pytorch format!')
-        test_data = TestbedDataset(root='data/',dataset='test'+str(i),  xd=test_drugs, xt=test_prots, y=test_Y, z=test_seqdrugs,
+        print('preparing _test',i,'.pt in pytorch format!')
+        test_data = TestbedDataset(root='data',dataset='_test'+str(i),  xd=test_drugs, xt=test_prots, y=test_Y, z=test_seqdrugs,
                                    smile_graph=smile_graph)
         print(processed_data_file_train, ' and ', processed_data_file_test, ' have been created')
     else:
