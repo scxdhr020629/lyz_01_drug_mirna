@@ -1,700 +1,704 @@
-2024-12-09 16:22:42,463 - INFO - Training on 13952 samples...
-2024-12-09 16:22:42,829 - INFO - Train epoch: 1 [0/13952 (0%)]	Loss: 0.696522
-2024-12-09 16:22:45,178 - INFO - Train epoch: 1 [279680/13952 (73%)]	Loss: 0.458585
-2024-12-09 16:22:46,124 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:22:46,643 - INFO - Accuracy: 0.8634, Precision: 0.8506, Recall: 0.8847, F1 Score: 0.8673
-2024-12-09 16:22:46,644 - INFO - ROC AUC: 0.9201
-2024-12-09 16:22:46,645 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:22:46,652 - INFO - Training on 13952 samples...
-2024-12-09 16:22:46,665 - INFO - Train epoch: 2 [0/13952 (0%)]	Loss: 0.201941
-2024-12-09 16:22:48,224 - INFO - Train epoch: 2 [287680/13952 (73%)]	Loss: 0.233082
-2024-12-09 16:22:48,772 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:22:49,065 - INFO - Accuracy: 0.8582, Precision: 0.8293, Recall: 0.9054, F1 Score: 0.8657
-2024-12-09 16:22:49,066 - INFO - ROC AUC: 0.9311
-2024-12-09 16:22:49,066 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:22:49,072 - INFO - Training on 13952 samples...
-2024-12-09 16:22:49,083 - INFO - Train epoch: 3 [0/13952 (0%)]	Loss: 0.230973
-2024-12-09 16:22:50,705 - INFO - Train epoch: 3 [301440/13952 (73%)]	Loss: 0.380748
-2024-12-09 16:22:51,251 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:22:51,530 - INFO - Accuracy: 0.8597, Precision: 0.8181, Recall: 0.9283, F1 Score: 0.8697
-2024-12-09 16:22:51,532 - INFO - ROC AUC: 0.9379
-2024-12-09 16:22:51,532 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:22:51,538 - INFO - Training on 13952 samples...
-2024-12-09 16:22:51,548 - INFO - Train epoch: 4 [0/13952 (0%)]	Loss: 0.405918
-2024-12-09 16:22:53,053 - INFO - Train epoch: 4 [337920/13952 (73%)]	Loss: 0.381501
-2024-12-09 16:22:53,597 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:22:53,890 - INFO - Accuracy: 0.8652, Precision: 0.8639, Recall: 0.8698, F1 Score: 0.8669
-2024-12-09 16:22:53,892 - INFO - ROC AUC: 0.9383
-2024-12-09 16:22:53,892 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:22:53,892 - INFO - Training on 13952 samples...
-2024-12-09 16:22:53,903 - INFO - Train epoch: 5 [0/13952 (0%)]	Loss: 0.466257
-2024-12-09 16:22:55,452 - INFO - Train epoch: 5 [275040/13952 (73%)]	Loss: 0.380050
-2024-12-09 16:22:56,074 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:22:56,382 - INFO - Accuracy: 0.8553, Precision: 0.8043, Recall: 0.9427, F1 Score: 0.8680
-2024-12-09 16:22:56,384 - INFO - ROC AUC: 0.9392
-2024-12-09 16:22:56,384 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:22:56,389 - INFO - Training on 13952 samples...
-2024-12-09 16:22:56,400 - INFO - Train epoch: 6 [0/13952 (0%)]	Loss: 0.334533
-2024-12-09 16:22:57,935 - INFO - Train epoch: 6 [348000/13952 (73%)]	Loss: 0.297049
-2024-12-09 16:22:58,483 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:22:58,783 - INFO - Accuracy: 0.8594, Precision: 0.8129, Recall: 0.9369, F1 Score: 0.8705
-2024-12-09 16:22:58,784 - INFO - ROC AUC: 0.9399
-2024-12-09 16:22:58,784 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:22:58,784 - INFO - Training on 13952 samples...
-2024-12-09 16:22:58,797 - INFO - Train epoch: 7 [0/13952 (0%)]	Loss: 0.270062
-2024-12-09 16:23:00,328 - INFO - Train epoch: 7 [300640/13952 (73%)]	Loss: 0.331325
-2024-12-09 16:23:00,857 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:23:01,151 - INFO - Accuracy: 0.8623, Precision: 0.8132, Recall: 0.9438, F1 Score: 0.8737
-2024-12-09 16:23:01,153 - INFO - ROC AUC: 0.9417
-2024-12-09 16:23:01,153 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:23:01,159 - INFO - Training on 13952 samples...
-2024-12-09 16:23:01,169 - INFO - Train epoch: 8 [0/13952 (0%)]	Loss: 0.340030
-2024-12-09 16:23:02,732 - INFO - Train epoch: 8 [343040/13952 (73%)]	Loss: 0.332752
-2024-12-09 16:23:03,269 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:23:03,557 - INFO - Accuracy: 0.8605, Precision: 0.8127, Recall: 0.9404, F1 Score: 0.8719
-2024-12-09 16:23:03,558 - INFO - ROC AUC: 0.9403
-2024-12-09 16:23:03,559 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:23:03,559 - INFO - Training on 13952 samples...
-2024-12-09 16:23:03,569 - INFO - Train epoch: 9 [0/13952 (0%)]	Loss: 0.311621
-2024-12-09 16:23:05,134 - INFO - Train epoch: 9 [320800/13952 (73%)]	Loss: 0.266332
-2024-12-09 16:23:05,671 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:23:05,954 - INFO - Accuracy: 0.8594, Precision: 0.8062, Recall: 0.9495, F1 Score: 0.8720
-2024-12-09 16:23:05,955 - INFO - ROC AUC: 0.9391
-2024-12-09 16:23:05,955 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:23:05,960 - INFO - Training on 13952 samples...
-2024-12-09 16:23:05,971 - INFO - Train epoch: 10 [0/13952 (0%)]	Loss: 0.274294
-2024-12-09 16:23:07,551 - INFO - Train epoch: 10 [309280/13952 (73%)]	Loss: 0.196384
-2024-12-09 16:23:08,112 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:23:08,409 - INFO - Accuracy: 0.8738, Precision: 0.8494, Recall: 0.9117, F1 Score: 0.8794
-2024-12-09 16:23:08,410 - INFO - ROC AUC: 0.9428
-2024-12-09 16:23:08,410 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:23:08,411 - INFO - Training on 13952 samples...
-2024-12-09 16:23:08,424 - INFO - Train epoch: 11 [0/13952 (0%)]	Loss: 0.256846
-2024-12-09 16:23:09,997 - INFO - Train epoch: 11 [296480/13952 (73%)]	Loss: 0.184941
-2024-12-09 16:23:10,536 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:23:10,815 - INFO - Accuracy: 0.8736, Precision: 0.8367, Recall: 0.9312, F1 Score: 0.8814
-2024-12-09 16:23:10,816 - INFO - ROC AUC: 0.9420
-2024-12-09 16:23:10,816 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:23:10,816 - INFO - Training on 13952 samples...
-2024-12-09 16:23:10,829 - INFO - Train epoch: 12 [0/13952 (0%)]	Loss: 0.243703
-2024-12-09 16:23:12,376 - INFO - Train epoch: 12 [283840/13952 (73%)]	Loss: 0.429552
-2024-12-09 16:23:12,899 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:23:13,195 - INFO - Accuracy: 0.8744, Precision: 0.8510, Recall: 0.9106, F1 Score: 0.8798
-2024-12-09 16:23:13,197 - INFO - ROC AUC: 0.9431
-2024-12-09 16:23:13,198 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:23:13,198 - INFO - Training on 13952 samples...
-2024-12-09 16:23:13,211 - INFO - Train epoch: 13 [0/13952 (0%)]	Loss: 0.416203
-2024-12-09 16:23:14,803 - INFO - Train epoch: 13 [293440/13952 (73%)]	Loss: 0.269723
-2024-12-09 16:23:15,328 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:23:15,602 - INFO - Accuracy: 0.8675, Precision: 0.8271, Recall: 0.9323, F1 Score: 0.8765
-2024-12-09 16:23:15,604 - INFO - ROC AUC: 0.9409
-2024-12-09 16:23:15,604 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:23:15,604 - INFO - Training on 13952 samples...
-2024-12-09 16:23:15,615 - INFO - Train epoch: 14 [0/13952 (0%)]	Loss: 0.216583
-2024-12-09 16:23:17,195 - INFO - Train epoch: 14 [347200/13952 (73%)]	Loss: 0.182830
-2024-12-09 16:23:17,750 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:23:18,036 - INFO - Accuracy: 0.8652, Precision: 0.8845, Recall: 0.8429, F1 Score: 0.8632
-2024-12-09 16:23:18,037 - INFO - ROC AUC: 0.9436
-2024-12-09 16:23:18,038 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:23:18,038 - INFO - Training on 13952 samples...
-2024-12-09 16:23:18,048 - INFO - Train epoch: 15 [0/13952 (0%)]	Loss: 0.386562
-2024-12-09 16:23:19,766 - INFO - Train epoch: 15 [289920/13952 (73%)]	Loss: 0.261179
-2024-12-09 16:23:20,338 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:23:20,634 - INFO - Accuracy: 0.8721, Precision: 0.8373, Recall: 0.9266, F1 Score: 0.8797
-2024-12-09 16:23:20,636 - INFO - ROC AUC: 0.9390
-2024-12-09 16:23:20,636 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:23:20,636 - INFO - Training on 13952 samples...
-2024-12-09 16:23:20,645 - INFO - Train epoch: 16 [0/13952 (0%)]	Loss: 0.254693
-2024-12-09 16:23:22,244 - INFO - Train epoch: 16 [274080/13952 (73%)]	Loss: 0.312746
-2024-12-09 16:23:22,769 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:23:23,073 - INFO - Accuracy: 0.8738, Precision: 0.8468, Recall: 0.9157, F1 Score: 0.8799
-2024-12-09 16:23:23,075 - INFO - ROC AUC: 0.9435
-2024-12-09 16:23:23,075 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:23:23,075 - INFO - Training on 13952 samples...
-2024-12-09 16:23:23,086 - INFO - Train epoch: 17 [0/13952 (0%)]	Loss: 0.364239
-2024-12-09 16:23:24,665 - INFO - Train epoch: 17 [359520/13952 (73%)]	Loss: 0.098684
-2024-12-09 16:23:25,227 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:23:25,521 - INFO - Accuracy: 0.8776, Precision: 0.8493, Recall: 0.9209, F1 Score: 0.8836
-2024-12-09 16:23:25,522 - INFO - ROC AUC: 0.9439
-2024-12-09 16:23:25,523 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:23:25,523 - INFO - Training on 13952 samples...
-2024-12-09 16:23:25,533 - INFO - Train epoch: 18 [0/13952 (0%)]	Loss: 0.294838
-2024-12-09 16:23:27,128 - INFO - Train epoch: 18 [280000/13952 (73%)]	Loss: 0.359499
-2024-12-09 16:23:27,688 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:23:27,966 - INFO - Accuracy: 0.8788, Precision: 0.8530, Recall: 0.9180, F1 Score: 0.8843
-2024-12-09 16:23:27,968 - INFO - ROC AUC: 0.9445
-2024-12-09 16:23:27,968 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:23:27,968 - INFO - Training on 13952 samples...
-2024-12-09 16:23:27,981 - INFO - Train epoch: 19 [0/13952 (0%)]	Loss: 0.212820
-2024-12-09 16:23:29,561 - INFO - Train epoch: 19 [281280/13952 (73%)]	Loss: 0.236598
-2024-12-09 16:23:30,101 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:23:30,386 - INFO - Accuracy: 0.8796, Precision: 0.8528, Recall: 0.9203, F1 Score: 0.8853
-2024-12-09 16:23:30,387 - INFO - ROC AUC: 0.9459
-2024-12-09 16:23:30,388 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:23:30,388 - INFO - Training on 13952 samples...
-2024-12-09 16:23:30,399 - INFO - Train epoch: 20 [0/13952 (0%)]	Loss: 0.254136
-2024-12-09 16:23:31,944 - INFO - Train epoch: 20 [307840/13952 (73%)]	Loss: 0.202304
-2024-12-09 16:23:32,497 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:23:32,765 - INFO - Accuracy: 0.8782, Precision: 0.8581, Recall: 0.9088, F1 Score: 0.8828
-2024-12-09 16:23:32,767 - INFO - ROC AUC: 0.9442
-2024-12-09 16:23:32,768 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:23:32,768 - INFO - Training on 13952 samples...
-2024-12-09 16:23:32,778 - INFO - Train epoch: 21 [0/13952 (0%)]	Loss: 0.239375
-2024-12-09 16:23:34,334 - INFO - Train epoch: 21 [303360/13952 (73%)]	Loss: 0.237487
-2024-12-09 16:23:34,887 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:23:35,170 - INFO - Accuracy: 0.8738, Precision: 0.8300, Recall: 0.9432, F1 Score: 0.8830
-2024-12-09 16:23:35,172 - INFO - ROC AUC: 0.9430
-2024-12-09 16:23:35,172 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:23:35,172 - INFO - Training on 13952 samples...
-2024-12-09 16:23:35,183 - INFO - Train epoch: 22 [0/13952 (0%)]	Loss: 0.296840
-2024-12-09 16:23:36,751 - INFO - Train epoch: 22 [291840/13952 (73%)]	Loss: 0.284690
-2024-12-09 16:23:37,326 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:23:37,618 - INFO - Accuracy: 0.8741, Precision: 0.8465, Recall: 0.9169, F1 Score: 0.8803
-2024-12-09 16:23:37,620 - INFO - ROC AUC: 0.9414
-2024-12-09 16:23:37,620 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:23:37,620 - INFO - Training on 13952 samples...
-2024-12-09 16:23:37,631 - INFO - Train epoch: 23 [0/13952 (0%)]	Loss: 0.281955
-2024-12-09 16:23:39,175 - INFO - Train epoch: 23 [311680/13952 (73%)]	Loss: 0.181970
-2024-12-09 16:23:39,734 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:23:40,043 - INFO - Accuracy: 0.8825, Precision: 0.8559, Recall: 0.9226, F1 Score: 0.8880
-2024-12-09 16:23:40,045 - INFO - ROC AUC: 0.9446
-2024-12-09 16:23:40,045 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:23:40,045 - INFO - Training on 13952 samples...
-2024-12-09 16:23:40,057 - INFO - Train epoch: 24 [0/13952 (0%)]	Loss: 0.353660
-2024-12-09 16:23:41,625 - INFO - Train epoch: 24 [273280/13952 (73%)]	Loss: 0.346978
-2024-12-09 16:23:42,170 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:23:42,458 - INFO - Accuracy: 0.8782, Precision: 0.8517, Recall: 0.9186, F1 Score: 0.8839
-2024-12-09 16:23:42,460 - INFO - ROC AUC: 0.9441
-2024-12-09 16:23:42,460 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:23:42,460 - INFO - Training on 13952 samples...
-2024-12-09 16:23:42,471 - INFO - Train epoch: 25 [0/13952 (0%)]	Loss: 0.274556
-2024-12-09 16:23:44,057 - INFO - Train epoch: 25 [336800/13952 (73%)]	Loss: 0.416973
-2024-12-09 16:23:44,618 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:23:44,924 - INFO - Accuracy: 0.8736, Precision: 0.8485, Recall: 0.9123, F1 Score: 0.8792
-2024-12-09 16:23:44,927 - INFO - ROC AUC: 0.9385
-2024-12-09 16:23:44,927 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:23:44,927 - INFO - Training on 13952 samples...
-2024-12-09 16:23:44,937 - INFO - Train epoch: 26 [0/13952 (0%)]	Loss: 0.317568
-2024-12-09 16:23:46,459 - INFO - Train epoch: 26 [303360/13952 (73%)]	Loss: 0.287043
-2024-12-09 16:23:47,016 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:23:47,304 - INFO - Accuracy: 0.8785, Precision: 0.8533, Recall: 0.9169, F1 Score: 0.8839
-2024-12-09 16:23:47,306 - INFO - ROC AUC: 0.9413
-2024-12-09 16:23:47,306 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:23:47,306 - INFO - Training on 13952 samples...
-2024-12-09 16:23:47,316 - INFO - Train epoch: 27 [0/13952 (0%)]	Loss: 0.352630
-2024-12-09 16:23:48,825 - INFO - Train epoch: 27 [320000/13952 (73%)]	Loss: 0.233079
-2024-12-09 16:23:49,414 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:23:49,705 - INFO - Accuracy: 0.8744, Precision: 0.8366, Recall: 0.9335, F1 Score: 0.8824
-2024-12-09 16:23:49,706 - INFO - ROC AUC: 0.9455
-2024-12-09 16:23:49,706 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:23:49,706 - INFO - Training on 13952 samples...
-2024-12-09 16:23:49,717 - INFO - Train epoch: 28 [0/13952 (0%)]	Loss: 0.207634
-2024-12-09 16:23:51,273 - INFO - Train epoch: 28 [309440/13952 (73%)]	Loss: 0.305037
-2024-12-09 16:23:51,832 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:23:52,116 - INFO - Accuracy: 0.8681, Precision: 0.8330, Recall: 0.9237, F1 Score: 0.8760
-2024-12-09 16:23:52,117 - INFO - ROC AUC: 0.9410
-2024-12-09 16:23:52,118 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:23:52,118 - INFO - Training on 13952 samples...
-2024-12-09 16:23:52,130 - INFO - Train epoch: 29 [0/13952 (0%)]	Loss: 0.180489
-2024-12-09 16:23:53,674 - INFO - Train epoch: 29 [334400/13952 (73%)]	Loss: 0.312829
-2024-12-09 16:23:54,214 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:23:54,498 - INFO - Accuracy: 0.8767, Precision: 0.8520, Recall: 0.9146, F1 Score: 0.8822
-2024-12-09 16:23:54,499 - INFO - ROC AUC: 0.9443
-2024-12-09 16:23:54,500 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:23:54,500 - INFO - Training on 13952 samples...
-2024-12-09 16:23:54,509 - INFO - Train epoch: 30 [0/13952 (0%)]	Loss: 0.190164
-2024-12-09 16:23:56,005 - INFO - Train epoch: 30 [285280/13952 (73%)]	Loss: 0.230814
-2024-12-09 16:23:56,556 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:23:56,841 - INFO - Accuracy: 0.8788, Precision: 0.8571, Recall: 0.9117, F1 Score: 0.8836
-2024-12-09 16:23:56,842 - INFO - ROC AUC: 0.9465
-2024-12-09 16:23:56,842 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:23:56,842 - INFO - Training on 13952 samples...
-2024-12-09 16:23:56,852 - INFO - Train epoch: 31 [0/13952 (0%)]	Loss: 0.318812
-2024-12-09 16:23:58,366 - INFO - Train epoch: 31 [285440/13952 (73%)]	Loss: 0.333949
-2024-12-09 16:23:58,899 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:23:59,191 - INFO - Accuracy: 0.8799, Precision: 0.8602, Recall: 0.9100, F1 Score: 0.8844
-2024-12-09 16:23:59,193 - INFO - ROC AUC: 0.9424
-2024-12-09 16:23:59,193 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:23:59,193 - INFO - Training on 13952 samples...
-2024-12-09 16:23:59,203 - INFO - Train epoch: 32 [0/13952 (0%)]	Loss: 0.150253
-2024-12-09 16:24:00,714 - INFO - Train epoch: 32 [333600/13952 (73%)]	Loss: 0.258594
-2024-12-09 16:24:01,292 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:24:01,591 - INFO - Accuracy: 0.8727, Precision: 0.8350, Recall: 0.9318, F1 Score: 0.8808
-2024-12-09 16:24:01,592 - INFO - ROC AUC: 0.9433
-2024-12-09 16:24:01,592 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:24:01,593 - INFO - Training on 13952 samples...
-2024-12-09 16:24:01,602 - INFO - Train epoch: 33 [0/13952 (0%)]	Loss: 0.298517
-2024-12-09 16:24:03,124 - INFO - Train epoch: 33 [325280/13952 (73%)]	Loss: 0.246351
-2024-12-09 16:24:03,664 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:24:03,954 - INFO - Accuracy: 0.8779, Precision: 0.8450, Recall: 0.9283, F1 Score: 0.8847
-2024-12-09 16:24:03,956 - INFO - ROC AUC: 0.9462
-2024-12-09 16:24:03,956 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:24:03,956 - INFO - Training on 13952 samples...
-2024-12-09 16:24:03,968 - INFO - Train epoch: 34 [0/13952 (0%)]	Loss: 0.310555
-2024-12-09 16:24:05,502 - INFO - Train epoch: 34 [337760/13952 (73%)]	Loss: 0.180746
-2024-12-09 16:24:06,028 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:24:06,323 - INFO - Accuracy: 0.8750, Precision: 0.8677, Recall: 0.8876, F1 Score: 0.8776
-2024-12-09 16:24:06,325 - INFO - ROC AUC: 0.9424
-2024-12-09 16:24:06,325 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:24:06,325 - INFO - Training on 13952 samples...
-2024-12-09 16:24:06,338 - INFO - Train epoch: 35 [0/13952 (0%)]	Loss: 0.170748
-2024-12-09 16:24:07,963 - INFO - Train epoch: 35 [332160/13952 (73%)]	Loss: 0.269217
-2024-12-09 16:24:08,500 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:24:08,783 - INFO - Accuracy: 0.8747, Precision: 0.8620, Recall: 0.8951, F1 Score: 0.8782
-2024-12-09 16:24:08,785 - INFO - ROC AUC: 0.9414
-2024-12-09 16:24:08,785 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:24:08,785 - INFO - Training on 13952 samples...
-2024-12-09 16:24:08,798 - INFO - Train epoch: 36 [0/13952 (0%)]	Loss: 0.245953
-2024-12-09 16:24:10,310 - INFO - Train epoch: 36 [274720/13952 (73%)]	Loss: 0.412304
-2024-12-09 16:24:10,863 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:24:11,159 - INFO - Accuracy: 0.8759, Precision: 0.8725, Recall: 0.8830, F1 Score: 0.8777
-2024-12-09 16:24:11,161 - INFO - ROC AUC: 0.9417
-2024-12-09 16:24:11,161 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:24:11,161 - INFO - Training on 13952 samples...
-2024-12-09 16:24:11,174 - INFO - Train epoch: 37 [0/13952 (0%)]	Loss: 0.338343
-2024-12-09 16:24:12,828 - INFO - Train epoch: 37 [283360/13952 (73%)]	Loss: 0.133707
-2024-12-09 16:24:13,449 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:24:13,732 - INFO - Accuracy: 0.8660, Precision: 0.8154, Recall: 0.9495, F1 Score: 0.8774
-2024-12-09 16:24:13,734 - INFO - ROC AUC: 0.9440
-2024-12-09 16:24:13,734 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:24:13,734 - INFO - Training on 13952 samples...
-2024-12-09 16:24:13,746 - INFO - Train epoch: 38 [0/13952 (0%)]	Loss: 0.194129
-2024-12-09 16:24:15,472 - INFO - Train epoch: 38 [300640/13952 (73%)]	Loss: 0.209843
-2024-12-09 16:24:16,059 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:24:16,352 - INFO - Accuracy: 0.8764, Precision: 0.8577, Recall: 0.9054, F1 Score: 0.8809
-2024-12-09 16:24:16,354 - INFO - ROC AUC: 0.9438
-2024-12-09 16:24:16,354 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:24:16,354 - INFO - Training on 13952 samples...
-2024-12-09 16:24:16,364 - INFO - Train epoch: 39 [0/13952 (0%)]	Loss: 0.145671
-2024-12-09 16:24:18,073 - INFO - Train epoch: 39 [303840/13952 (73%)]	Loss: 0.117188
-2024-12-09 16:24:18,676 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:24:18,970 - INFO - Accuracy: 0.8779, Precision: 0.8531, Recall: 0.9157, F1 Score: 0.8833
-2024-12-09 16:24:18,972 - INFO - ROC AUC: 0.9418
-2024-12-09 16:24:18,972 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:24:18,972 - INFO - Training on 13952 samples...
-2024-12-09 16:24:18,986 - INFO - Train epoch: 40 [0/13952 (0%)]	Loss: 0.281140
-2024-12-09 16:24:20,677 - INFO - Train epoch: 40 [294880/13952 (73%)]	Loss: 0.291455
-2024-12-09 16:24:21,282 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:24:21,579 - INFO - Accuracy: 0.8709, Precision: 0.8419, Recall: 0.9163, F1 Score: 0.8775
-2024-12-09 16:24:21,580 - INFO - ROC AUC: 0.9410
-2024-12-09 16:24:21,580 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:24:21,580 - INFO - Training on 13952 samples...
-2024-12-09 16:24:21,593 - INFO - Train epoch: 41 [0/13952 (0%)]	Loss: 0.219281
-2024-12-09 16:24:23,290 - INFO - Train epoch: 41 [294240/13952 (73%)]	Loss: 0.306091
-2024-12-09 16:24:23,894 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:24:24,205 - INFO - Accuracy: 0.8669, Precision: 0.8444, Recall: 0.9025, F1 Score: 0.8725
-2024-12-09 16:24:24,207 - INFO - ROC AUC: 0.9355
-2024-12-09 16:24:24,207 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:24:24,207 - INFO - Training on 13952 samples...
-2024-12-09 16:24:24,219 - INFO - Train epoch: 42 [0/13952 (0%)]	Loss: 0.187318
-2024-12-09 16:24:25,918 - INFO - Train epoch: 42 [305280/13952 (73%)]	Loss: 0.211738
-2024-12-09 16:24:26,526 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:24:26,803 - INFO - Accuracy: 0.8718, Precision: 0.8522, Recall: 0.9025, F1 Score: 0.8766
-2024-12-09 16:24:26,805 - INFO - ROC AUC: 0.9383
-2024-12-09 16:24:26,805 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:24:26,805 - INFO - Training on 13952 samples...
-2024-12-09 16:24:26,815 - INFO - Train epoch: 43 [0/13952 (0%)]	Loss: 0.212584
-2024-12-09 16:24:28,496 - INFO - Train epoch: 43 [310080/13952 (73%)]	Loss: 0.129567
-2024-12-09 16:24:29,102 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:24:29,383 - INFO - Accuracy: 0.8721, Precision: 0.8387, Recall: 0.9243, F1 Score: 0.8794
-2024-12-09 16:24:29,385 - INFO - ROC AUC: 0.9414
-2024-12-09 16:24:29,385 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:24:29,385 - INFO - Training on 13952 samples...
-2024-12-09 16:24:29,399 - INFO - Train epoch: 44 [0/13952 (0%)]	Loss: 0.196811
-2024-12-09 16:24:31,064 - INFO - Train epoch: 44 [295200/13952 (73%)]	Loss: 0.121680
-2024-12-09 16:24:31,669 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:24:31,968 - INFO - Accuracy: 0.8814, Precision: 0.8567, Recall: 0.9186, F1 Score: 0.8866
-2024-12-09 16:24:31,969 - INFO - ROC AUC: 0.9429
-2024-12-09 16:24:31,969 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:24:31,969 - INFO - Training on 13952 samples...
-2024-12-09 16:24:31,983 - INFO - Train epoch: 45 [0/13952 (0%)]	Loss: 0.186665
-2024-12-09 16:24:33,701 - INFO - Train epoch: 45 [267520/13952 (73%)]	Loss: 0.265410
-2024-12-09 16:24:34,307 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:24:34,603 - INFO - Accuracy: 0.8666, Precision: 0.8367, Recall: 0.9140, F1 Score: 0.8737
-2024-12-09 16:24:34,605 - INFO - ROC AUC: 0.9365
-2024-12-09 16:24:34,605 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:24:34,605 - INFO - Training on 13952 samples...
-2024-12-09 16:24:34,617 - INFO - Train epoch: 46 [0/13952 (0%)]	Loss: 0.269423
-2024-12-09 16:24:36,427 - INFO - Train epoch: 46 [310880/13952 (73%)]	Loss: 0.284190
-2024-12-09 16:24:37,064 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:24:37,360 - INFO - Accuracy: 0.8750, Precision: 0.8475, Recall: 0.9174, F1 Score: 0.8811
-2024-12-09 16:24:37,362 - INFO - ROC AUC: 0.9437
-2024-12-09 16:24:37,362 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:24:37,362 - INFO - Training on 13952 samples...
-2024-12-09 16:24:37,373 - INFO - Train epoch: 47 [0/13952 (0%)]	Loss: 0.259274
-2024-12-09 16:24:39,177 - INFO - Train epoch: 47 [318240/13952 (73%)]	Loss: 0.207766
-2024-12-09 16:24:39,814 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:24:40,121 - INFO - Accuracy: 0.8704, Precision: 0.8568, Recall: 0.8922, F1 Score: 0.8742
-2024-12-09 16:24:40,123 - INFO - ROC AUC: 0.9413
-2024-12-09 16:24:40,123 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:24:40,123 - INFO - Training on 13952 samples...
-2024-12-09 16:24:40,136 - INFO - Train epoch: 48 [0/13952 (0%)]	Loss: 0.183666
-2024-12-09 16:24:41,938 - INFO - Train epoch: 48 [292480/13952 (73%)]	Loss: 0.404569
-2024-12-09 16:24:42,570 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:24:42,855 - INFO - Accuracy: 0.8814, Precision: 0.8629, Recall: 0.9094, F1 Score: 0.8855
-2024-12-09 16:24:42,857 - INFO - ROC AUC: 0.9454
-2024-12-09 16:24:42,857 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:24:42,857 - INFO - Training on 13952 samples...
-2024-12-09 16:24:42,870 - INFO - Train epoch: 49 [0/13952 (0%)]	Loss: 0.143099
-2024-12-09 16:24:44,663 - INFO - Train epoch: 49 [309920/13952 (73%)]	Loss: 0.284289
-2024-12-09 16:24:45,295 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:24:45,597 - INFO - Accuracy: 0.8791, Precision: 0.8478, Recall: 0.9266, F1 Score: 0.8855
-2024-12-09 16:24:45,599 - INFO - ROC AUC: 0.9423
-2024-12-09 16:24:45,599 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:24:45,599 - INFO - Training on 13952 samples...
-2024-12-09 16:24:45,611 - INFO - Train epoch: 50 [0/13952 (0%)]	Loss: 0.133548
-2024-12-09 16:24:47,417 - INFO - Train epoch: 50 [328640/13952 (73%)]	Loss: 0.290245
-2024-12-09 16:24:48,054 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:24:48,347 - INFO - Accuracy: 0.8617, Precision: 0.8273, Recall: 0.9174, F1 Score: 0.8700
-2024-12-09 16:24:48,349 - INFO - ROC AUC: 0.9319
-2024-12-09 16:24:48,349 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:24:48,349 - INFO - Training on 13952 samples...
-2024-12-09 16:24:48,359 - INFO - Train epoch: 51 [0/13952 (0%)]	Loss: 0.246594
-2024-12-09 16:24:50,144 - INFO - Train epoch: 51 [312160/13952 (73%)]	Loss: 0.244863
-2024-12-09 16:24:50,773 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:24:51,066 - INFO - Accuracy: 0.8785, Precision: 0.8514, Recall: 0.9197, F1 Score: 0.8842
-2024-12-09 16:24:51,068 - INFO - ROC AUC: 0.9403
-2024-12-09 16:24:51,068 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:24:51,068 - INFO - Training on 13952 samples...
-2024-12-09 16:24:51,081 - INFO - Train epoch: 52 [0/13952 (0%)]	Loss: 0.242627
-2024-12-09 16:24:52,879 - INFO - Train epoch: 52 [337120/13952 (73%)]	Loss: 0.233102
-2024-12-09 16:24:53,514 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:24:53,805 - INFO - Accuracy: 0.8744, Precision: 0.8676, Recall: 0.8865, F1 Score: 0.8769
-2024-12-09 16:24:53,806 - INFO - ROC AUC: 0.9433
-2024-12-09 16:24:53,807 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:24:53,807 - INFO - Training on 13952 samples...
-2024-12-09 16:24:53,819 - INFO - Train epoch: 53 [0/13952 (0%)]	Loss: 0.181825
-2024-12-09 16:24:55,645 - INFO - Train epoch: 53 [336960/13952 (73%)]	Loss: 0.263879
-2024-12-09 16:24:56,293 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:24:56,588 - INFO - Accuracy: 0.8686, Precision: 0.8402, Recall: 0.9134, F1 Score: 0.8753
-2024-12-09 16:24:56,590 - INFO - ROC AUC: 0.9383
-2024-12-09 16:24:56,590 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:24:56,590 - INFO - Training on 13952 samples...
-2024-12-09 16:24:56,603 - INFO - Train epoch: 54 [0/13952 (0%)]	Loss: 0.238462
-2024-12-09 16:24:58,436 - INFO - Train epoch: 54 [290400/13952 (73%)]	Loss: 0.195700
-2024-12-09 16:24:59,051 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:24:59,359 - INFO - Accuracy: 0.8770, Precision: 0.8575, Recall: 0.9071, F1 Score: 0.8816
-2024-12-09 16:24:59,361 - INFO - ROC AUC: 0.9418
-2024-12-09 16:24:59,361 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:24:59,361 - INFO - Training on 13952 samples...
-2024-12-09 16:24:59,373 - INFO - Train epoch: 55 [0/13952 (0%)]	Loss: 0.192366
-2024-12-09 16:25:01,100 - INFO - Train epoch: 55 [308160/13952 (73%)]	Loss: 0.176893
-2024-12-09 16:25:01,733 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:25:02,034 - INFO - Accuracy: 0.8753, Precision: 0.8637, Recall: 0.8939, F1 Score: 0.8786
-2024-12-09 16:25:02,036 - INFO - ROC AUC: 0.9425
-2024-12-09 16:25:02,036 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:25:02,036 - INFO - Training on 13952 samples...
-2024-12-09 16:25:02,050 - INFO - Train epoch: 56 [0/13952 (0%)]	Loss: 0.105419
-2024-12-09 16:25:03,780 - INFO - Train epoch: 56 [323200/13952 (73%)]	Loss: 0.234346
-2024-12-09 16:25:04,390 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:25:04,670 - INFO - Accuracy: 0.8721, Precision: 0.8489, Recall: 0.9083, F1 Score: 0.8776
-2024-12-09 16:25:04,672 - INFO - ROC AUC: 0.9385
-2024-12-09 16:25:04,672 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:25:04,672 - INFO - Training on 13952 samples...
-2024-12-09 16:25:04,683 - INFO - Train epoch: 57 [0/13952 (0%)]	Loss: 0.241763
-2024-12-09 16:25:06,403 - INFO - Train epoch: 57 [294880/13952 (73%)]	Loss: 0.145374
-2024-12-09 16:25:07,004 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:25:07,302 - INFO - Accuracy: 0.8631, Precision: 0.8548, Recall: 0.8779, F1 Score: 0.8662
-2024-12-09 16:25:07,304 - INFO - ROC AUC: 0.9312
-2024-12-09 16:25:07,304 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:25:07,304 - INFO - Training on 13952 samples...
-2024-12-09 16:25:07,315 - INFO - Train epoch: 58 [0/13952 (0%)]	Loss: 0.204645
-2024-12-09 16:25:09,043 - INFO - Train epoch: 58 [328640/13952 (73%)]	Loss: 0.235858
-2024-12-09 16:25:09,646 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:25:09,947 - INFO - Accuracy: 0.8649, Precision: 0.8150, Recall: 0.9472, F1 Score: 0.8762
-2024-12-09 16:25:09,949 - INFO - ROC AUC: 0.9361
-2024-12-09 16:25:09,949 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:25:09,949 - INFO - Training on 13952 samples...
-2024-12-09 16:25:09,960 - INFO - Train epoch: 59 [0/13952 (0%)]	Loss: 0.176538
-2024-12-09 16:25:11,755 - INFO - Train epoch: 59 [300800/13952 (73%)]	Loss: 0.372751
-2024-12-09 16:25:12,360 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:25:12,647 - INFO - Accuracy: 0.8695, Precision: 0.8401, Recall: 0.9157, F1 Score: 0.8763
-2024-12-09 16:25:12,649 - INFO - ROC AUC: 0.9367
-2024-12-09 16:25:12,649 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:25:12,649 - INFO - Training on 13952 samples...
-2024-12-09 16:25:12,660 - INFO - Train epoch: 60 [0/13952 (0%)]	Loss: 0.185213
-2024-12-09 16:25:14,239 - INFO - Train epoch: 60 [331200/13952 (73%)]	Loss: 0.238194
-2024-12-09 16:25:14,878 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:25:15,196 - INFO - Accuracy: 0.8724, Precision: 0.8453, Recall: 0.9146, F1 Score: 0.8785
-2024-12-09 16:25:15,198 - INFO - ROC AUC: 0.9387
-2024-12-09 16:25:15,198 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:25:15,198 - INFO - Training on 13952 samples...
-2024-12-09 16:25:15,209 - INFO - Train epoch: 61 [0/13952 (0%)]	Loss: 0.182955
-2024-12-09 16:25:16,939 - INFO - Train epoch: 61 [330400/13952 (73%)]	Loss: 0.324152
-2024-12-09 16:25:17,542 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:25:17,834 - INFO - Accuracy: 0.8709, Precision: 0.8531, Recall: 0.8991, F1 Score: 0.8755
-2024-12-09 16:25:17,836 - INFO - ROC AUC: 0.9381
-2024-12-09 16:25:17,836 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:25:17,836 - INFO - Training on 13952 samples...
-2024-12-09 16:25:17,849 - INFO - Train epoch: 62 [0/13952 (0%)]	Loss: 0.133016
-2024-12-09 16:25:19,574 - INFO - Train epoch: 62 [295520/13952 (73%)]	Loss: 0.121709
-2024-12-09 16:25:20,181 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:25:20,477 - INFO - Accuracy: 0.8733, Precision: 0.8473, Recall: 0.9134, F1 Score: 0.8791
-2024-12-09 16:25:20,478 - INFO - ROC AUC: 0.9371
-2024-12-09 16:25:20,478 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:25:20,478 - INFO - Training on 13952 samples...
-2024-12-09 16:25:20,488 - INFO - Train epoch: 63 [0/13952 (0%)]	Loss: 0.107381
-2024-12-09 16:25:22,247 - INFO - Train epoch: 63 [340320/13952 (73%)]	Loss: 0.200708
-2024-12-09 16:25:22,869 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:25:23,164 - INFO - Accuracy: 0.8721, Precision: 0.8489, Recall: 0.9083, F1 Score: 0.8776
-2024-12-09 16:25:23,167 - INFO - ROC AUC: 0.9404
-2024-12-09 16:25:23,167 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:25:23,167 - INFO - Training on 13952 samples...
-2024-12-09 16:25:23,178 - INFO - Train epoch: 64 [0/13952 (0%)]	Loss: 0.218621
-2024-12-09 16:25:24,821 - INFO - Train epoch: 64 [336320/13952 (73%)]	Loss: 0.152946
-2024-12-09 16:25:25,461 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:25:25,925 - INFO - Accuracy: 0.8683, Precision: 0.8486, Recall: 0.8997, F1 Score: 0.8734
-2024-12-09 16:25:25,927 - INFO - ROC AUC: 0.9373
-2024-12-09 16:25:25,927 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:25:25,927 - INFO - Training on 13952 samples...
-2024-12-09 16:25:25,937 - INFO - Train epoch: 65 [0/13952 (0%)]	Loss: 0.133938
-2024-12-09 16:25:27,806 - INFO - Train epoch: 65 [303200/13952 (73%)]	Loss: 0.229119
-2024-12-09 16:25:28,436 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:25:28,730 - INFO - Accuracy: 0.8672, Precision: 0.8482, Recall: 0.8974, F1 Score: 0.8721
-2024-12-09 16:25:28,731 - INFO - ROC AUC: 0.9332
-2024-12-09 16:25:28,731 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:25:28,731 - INFO - Training on 13952 samples...
-2024-12-09 16:25:28,743 - INFO - Train epoch: 66 [0/13952 (0%)]	Loss: 0.230788
-2024-12-09 16:25:30,503 - INFO - Train epoch: 66 [283680/13952 (73%)]	Loss: 0.253764
-2024-12-09 16:25:31,112 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:25:31,412 - INFO - Accuracy: 0.8617, Precision: 0.8360, Recall: 0.9031, F1 Score: 0.8682
-2024-12-09 16:25:31,413 - INFO - ROC AUC: 0.9324
-2024-12-09 16:25:31,414 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:25:31,414 - INFO - Training on 13952 samples...
-2024-12-09 16:25:31,426 - INFO - Train epoch: 67 [0/13952 (0%)]	Loss: 0.125077
-2024-12-09 16:25:33,169 - INFO - Train epoch: 67 [281920/13952 (73%)]	Loss: 0.172056
-2024-12-09 16:25:33,778 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:25:34,078 - INFO - Accuracy: 0.8614, Precision: 0.8671, Recall: 0.8567, F1 Score: 0.8618
-2024-12-09 16:25:34,079 - INFO - ROC AUC: 0.9382
-2024-12-09 16:25:34,079 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:25:34,079 - INFO - Training on 13952 samples...
-2024-12-09 16:25:34,092 - INFO - Train epoch: 68 [0/13952 (0%)]	Loss: 0.282610
-2024-12-09 16:25:35,855 - INFO - Train epoch: 68 [270880/13952 (73%)]	Loss: 0.250282
-2024-12-09 16:25:36,488 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:25:36,781 - INFO - Accuracy: 0.8707, Precision: 0.8429, Recall: 0.9140, F1 Score: 0.8770
-2024-12-09 16:25:36,783 - INFO - ROC AUC: 0.9378
-2024-12-09 16:25:36,783 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:25:36,783 - INFO - Training on 13952 samples...
-2024-12-09 16:25:36,795 - INFO - Train epoch: 69 [0/13952 (0%)]	Loss: 0.172049
-2024-12-09 16:25:38,514 - INFO - Train epoch: 69 [325600/13952 (73%)]	Loss: 0.176733
-2024-12-09 16:25:39,124 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:25:39,429 - INFO - Accuracy: 0.8678, Precision: 0.8495, Recall: 0.8968, F1 Score: 0.8725
-2024-12-09 16:25:39,431 - INFO - ROC AUC: 0.9382
-2024-12-09 16:25:39,431 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:25:39,431 - INFO - Training on 13952 samples...
-2024-12-09 16:25:39,445 - INFO - Train epoch: 70 [0/13952 (0%)]	Loss: 0.206506
-2024-12-09 16:25:41,283 - INFO - Train epoch: 70 [303680/13952 (73%)]	Loss: 0.281893
-2024-12-09 16:25:41,885 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:25:42,181 - INFO - Accuracy: 0.8689, Precision: 0.8454, Recall: 0.9060, F1 Score: 0.8746
-2024-12-09 16:25:42,183 - INFO - ROC AUC: 0.9351
-2024-12-09 16:25:42,183 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:25:42,183 - INFO - Training on 13952 samples...
-2024-12-09 16:25:42,196 - INFO - Train epoch: 71 [0/13952 (0%)]	Loss: 0.186845
-2024-12-09 16:25:43,904 - INFO - Train epoch: 71 [322880/13952 (73%)]	Loss: 0.160144
-2024-12-09 16:25:44,529 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:25:44,826 - INFO - Accuracy: 0.8683, Precision: 0.8437, Recall: 0.9071, F1 Score: 0.8743
-2024-12-09 16:25:44,827 - INFO - ROC AUC: 0.9380
-2024-12-09 16:25:44,828 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:25:44,828 - INFO - Training on 13952 samples...
-2024-12-09 16:25:44,840 - INFO - Train epoch: 72 [0/13952 (0%)]	Loss: 0.194679
-2024-12-09 16:25:46,569 - INFO - Train epoch: 72 [311360/13952 (73%)]	Loss: 0.315976
-2024-12-09 16:25:47,172 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:25:47,463 - INFO - Accuracy: 0.8620, Precision: 0.8260, Recall: 0.9203, F1 Score: 0.8706
-2024-12-09 16:25:47,465 - INFO - ROC AUC: 0.9277
-2024-12-09 16:25:47,465 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:25:47,465 - INFO - Training on 13952 samples...
-2024-12-09 16:25:47,477 - INFO - Train epoch: 73 [0/13952 (0%)]	Loss: 0.198529
-2024-12-09 16:25:49,173 - INFO - Train epoch: 73 [295520/13952 (73%)]	Loss: 0.161457
-2024-12-09 16:25:49,764 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:25:50,053 - INFO - Accuracy: 0.8738, Precision: 0.8609, Recall: 0.8945, F1 Score: 0.8774
-2024-12-09 16:25:50,054 - INFO - ROC AUC: 0.9389
-2024-12-09 16:25:50,054 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:25:50,054 - INFO - Training on 13952 samples...
-2024-12-09 16:25:50,066 - INFO - Train epoch: 74 [0/13952 (0%)]	Loss: 0.284460
-2024-12-09 16:25:51,755 - INFO - Train epoch: 74 [328160/13952 (73%)]	Loss: 0.203967
-2024-12-09 16:25:52,388 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:25:52,678 - INFO - Accuracy: 0.8660, Precision: 0.8666, Recall: 0.8681, F1 Score: 0.8674
-2024-12-09 16:25:52,680 - INFO - ROC AUC: 0.9377
-2024-12-09 16:25:52,680 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:25:52,680 - INFO - Training on 13952 samples...
-2024-12-09 16:25:52,693 - INFO - Train epoch: 75 [0/13952 (0%)]	Loss: 0.174534
-2024-12-09 16:25:54,413 - INFO - Train epoch: 75 [288800/13952 (73%)]	Loss: 0.397137
-2024-12-09 16:25:55,005 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:25:55,290 - INFO - Accuracy: 0.8678, Precision: 0.8581, Recall: 0.8842, F1 Score: 0.8709
-2024-12-09 16:25:55,291 - INFO - ROC AUC: 0.9345
-2024-12-09 16:25:55,291 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:25:55,291 - INFO - Training on 13952 samples...
-2024-12-09 16:25:55,304 - INFO - Train epoch: 76 [0/13952 (0%)]	Loss: 0.099005
-2024-12-09 16:25:57,146 - INFO - Train epoch: 76 [303680/13952 (73%)]	Loss: 0.205502
-2024-12-09 16:25:57,732 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:25:58,018 - INFO - Accuracy: 0.8623, Precision: 0.8323, Recall: 0.9106, F1 Score: 0.8697
-2024-12-09 16:25:58,020 - INFO - ROC AUC: 0.9325
-2024-12-09 16:25:58,020 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:25:58,020 - INFO - Training on 13952 samples...
-2024-12-09 16:25:58,033 - INFO - Train epoch: 77 [0/13952 (0%)]	Loss: 0.140196
-2024-12-09 16:25:59,724 - INFO - Train epoch: 77 [347680/13952 (73%)]	Loss: 0.160610
-2024-12-09 16:26:00,334 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:26:00,637 - INFO - Accuracy: 0.8712, Precision: 0.8498, Recall: 0.9048, F1 Score: 0.8764
-2024-12-09 16:26:00,639 - INFO - ROC AUC: 0.9363
-2024-12-09 16:26:00,639 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:26:00,639 - INFO - Training on 13952 samples...
-2024-12-09 16:26:00,650 - INFO - Train epoch: 78 [0/13952 (0%)]	Loss: 0.153028
-2024-12-09 16:26:02,345 - INFO - Train epoch: 78 [299840/13952 (73%)]	Loss: 0.125583
-2024-12-09 16:26:02,951 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:26:03,251 - INFO - Accuracy: 0.8709, Precision: 0.8412, Recall: 0.9174, F1 Score: 0.8777
-2024-12-09 16:26:03,253 - INFO - ROC AUC: 0.9361
-2024-12-09 16:26:03,253 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:26:03,253 - INFO - Training on 13952 samples...
-2024-12-09 16:26:03,263 - INFO - Train epoch: 79 [0/13952 (0%)]	Loss: 0.195946
-2024-12-09 16:26:04,962 - INFO - Train epoch: 79 [289120/13952 (73%)]	Loss: 0.199122
-2024-12-09 16:26:05,552 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:26:05,837 - INFO - Accuracy: 0.8666, Precision: 0.8371, Recall: 0.9134, F1 Score: 0.8736
-2024-12-09 16:26:05,838 - INFO - ROC AUC: 0.9370
-2024-12-09 16:26:05,838 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:26:05,839 - INFO - Training on 13952 samples...
-2024-12-09 16:26:05,849 - INFO - Train epoch: 80 [0/13952 (0%)]	Loss: 0.262947
-2024-12-09 16:26:07,554 - INFO - Train epoch: 80 [317280/13952 (73%)]	Loss: 0.203266
-2024-12-09 16:26:08,178 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:26:08,478 - INFO - Accuracy: 0.8663, Precision: 0.8469, Recall: 0.8974, F1 Score: 0.8714
-2024-12-09 16:26:08,480 - INFO - ROC AUC: 0.9324
-2024-12-09 16:26:08,480 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:26:08,480 - INFO - Training on 13952 samples...
-2024-12-09 16:26:08,493 - INFO - Train epoch: 81 [0/13952 (0%)]	Loss: 0.173602
-2024-12-09 16:26:10,261 - INFO - Train epoch: 81 [328000/13952 (73%)]	Loss: 0.204178
-2024-12-09 16:26:10,967 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:26:11,305 - INFO - Accuracy: 0.8718, Precision: 0.8440, Recall: 0.9151, F1 Score: 0.8781
-2024-12-09 16:26:11,307 - INFO - ROC AUC: 0.9342
-2024-12-09 16:26:11,307 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:26:11,307 - INFO - Training on 13952 samples...
-2024-12-09 16:26:11,328 - INFO - Train epoch: 82 [0/13952 (0%)]	Loss: 0.108123
-2024-12-09 16:26:13,010 - INFO - Train epoch: 82 [334880/13952 (73%)]	Loss: 0.158065
-2024-12-09 16:26:13,596 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:26:13,878 - INFO - Accuracy: 0.8678, Precision: 0.8458, Recall: 0.9025, F1 Score: 0.8732
-2024-12-09 16:26:13,880 - INFO - ROC AUC: 0.9368
-2024-12-09 16:26:13,880 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:26:13,880 - INFO - Training on 13952 samples...
-2024-12-09 16:26:13,890 - INFO - Train epoch: 83 [0/13952 (0%)]	Loss: 0.194528
-2024-12-09 16:26:15,492 - INFO - Train epoch: 83 [316000/13952 (73%)]	Loss: 0.161070
-2024-12-09 16:26:16,078 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:26:16,356 - INFO - Accuracy: 0.8631, Precision: 0.8308, Recall: 0.9151, F1 Score: 0.8709
-2024-12-09 16:26:16,358 - INFO - ROC AUC: 0.9296
-2024-12-09 16:26:16,358 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:26:16,358 - INFO - Training on 13952 samples...
-2024-12-09 16:26:16,368 - INFO - Train epoch: 84 [0/13952 (0%)]	Loss: 0.140789
-2024-12-09 16:26:17,991 - INFO - Train epoch: 84 [278400/13952 (73%)]	Loss: 0.148854
-2024-12-09 16:26:18,613 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:26:18,898 - INFO - Accuracy: 0.8767, Precision: 0.8494, Recall: 0.9186, F1 Score: 0.8826
-2024-12-09 16:26:18,900 - INFO - ROC AUC: 0.9336
-2024-12-09 16:26:18,900 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:26:18,900 - INFO - Training on 13952 samples...
-2024-12-09 16:26:18,915 - INFO - Train epoch: 85 [0/13952 (0%)]	Loss: 0.202235
-2024-12-09 16:26:20,533 - INFO - Train epoch: 85 [302560/13952 (73%)]	Loss: 0.154569
-2024-12-09 16:26:21,136 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:26:21,438 - INFO - Accuracy: 0.8571, Precision: 0.8457, Recall: 0.8767, F1 Score: 0.8609
-2024-12-09 16:26:21,439 - INFO - ROC AUC: 0.9294
-2024-12-09 16:26:21,440 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:26:21,440 - INFO - Training on 13952 samples...
-2024-12-09 16:26:21,452 - INFO - Train epoch: 86 [0/13952 (0%)]	Loss: 0.148254
-2024-12-09 16:26:23,169 - INFO - Train epoch: 86 [312480/13952 (73%)]	Loss: 0.207336
-2024-12-09 16:26:23,737 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:26:24,012 - INFO - Accuracy: 0.8675, Precision: 0.8363, Recall: 0.9169, F1 Score: 0.8747
-2024-12-09 16:26:24,014 - INFO - ROC AUC: 0.9352
-2024-12-09 16:26:24,014 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:26:24,014 - INFO - Training on 13952 samples...
-2024-12-09 16:26:24,023 - INFO - Train epoch: 87 [0/13952 (0%)]	Loss: 0.227141
-2024-12-09 16:26:25,720 - INFO - Train epoch: 87 [317120/13952 (73%)]	Loss: 0.193651
-2024-12-09 16:26:26,484 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:26:26,768 - INFO - Accuracy: 0.8640, Precision: 0.8392, Recall: 0.9037, F1 Score: 0.8702
-2024-12-09 16:26:26,770 - INFO - ROC AUC: 0.9326
-2024-12-09 16:26:26,770 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:26:26,770 - INFO - Training on 13952 samples...
-2024-12-09 16:26:26,781 - INFO - Train epoch: 88 [0/13952 (0%)]	Loss: 0.131373
-2024-12-09 16:26:28,417 - INFO - Train epoch: 88 [293280/13952 (73%)]	Loss: 0.195196
-2024-12-09 16:26:28,993 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:26:29,285 - INFO - Accuracy: 0.8692, Precision: 0.8565, Recall: 0.8899, F1 Score: 0.8729
-2024-12-09 16:26:29,286 - INFO - ROC AUC: 0.9348
-2024-12-09 16:26:29,286 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:26:29,286 - INFO - Training on 13952 samples...
-2024-12-09 16:26:29,299 - INFO - Train epoch: 89 [0/13952 (0%)]	Loss: 0.155083
-2024-12-09 16:26:30,886 - INFO - Train epoch: 89 [306240/13952 (73%)]	Loss: 0.126052
-2024-12-09 16:26:31,473 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:26:31,743 - INFO - Accuracy: 0.8655, Precision: 0.8353, Recall: 0.9134, F1 Score: 0.8726
-2024-12-09 16:26:31,745 - INFO - ROC AUC: 0.9347
-2024-12-09 16:26:31,746 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:26:31,746 - INFO - Training on 13952 samples...
-2024-12-09 16:26:31,758 - INFO - Train epoch: 90 [0/13952 (0%)]	Loss: 0.068232
-2024-12-09 16:26:33,394 - INFO - Train epoch: 90 [300800/13952 (73%)]	Loss: 0.170118
-2024-12-09 16:26:33,955 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:26:34,240 - INFO - Accuracy: 0.8643, Precision: 0.8520, Recall: 0.8847, F1 Score: 0.8681
-2024-12-09 16:26:34,241 - INFO - ROC AUC: 0.9318
-2024-12-09 16:26:34,241 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:26:34,241 - INFO - Training on 13952 samples...
-2024-12-09 16:26:34,251 - INFO - Train epoch: 91 [0/13952 (0%)]	Loss: 0.281933
-2024-12-09 16:26:35,836 - INFO - Train epoch: 91 [290880/13952 (73%)]	Loss: 0.151944
-2024-12-09 16:26:36,404 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:26:36,697 - INFO - Accuracy: 0.8550, Precision: 0.8097, Recall: 0.9318, F1 Score: 0.8664
-2024-12-09 16:26:36,699 - INFO - ROC AUC: 0.9245
-2024-12-09 16:26:36,699 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:26:36,699 - INFO - Training on 13952 samples...
-2024-12-09 16:26:36,712 - INFO - Train epoch: 92 [0/13952 (0%)]	Loss: 0.149080
-2024-12-09 16:26:38,342 - INFO - Train epoch: 92 [264480/13952 (73%)]	Loss: 0.193261
-2024-12-09 16:26:38,918 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:26:39,212 - INFO - Accuracy: 0.8657, Precision: 0.8591, Recall: 0.8779, F1 Score: 0.8684
-2024-12-09 16:26:39,214 - INFO - ROC AUC: 0.9333
-2024-12-09 16:26:39,214 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:26:39,214 - INFO - Training on 13952 samples...
-2024-12-09 16:26:39,224 - INFO - Train epoch: 93 [0/13952 (0%)]	Loss: 0.185823
-2024-12-09 16:26:40,987 - INFO - Train epoch: 93 [318240/13952 (73%)]	Loss: 0.197084
-2024-12-09 16:26:41,594 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:26:41,882 - INFO - Accuracy: 0.8597, Precision: 0.8519, Recall: 0.8739, F1 Score: 0.8627
-2024-12-09 16:26:41,884 - INFO - ROC AUC: 0.9291
-2024-12-09 16:26:41,884 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:26:41,884 - INFO - Training on 13952 samples...
-2024-12-09 16:26:41,894 - INFO - Train epoch: 94 [0/13952 (0%)]	Loss: 0.141801
-2024-12-09 16:26:43,553 - INFO - Train epoch: 94 [288960/13952 (73%)]	Loss: 0.117757
-2024-12-09 16:26:44,141 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:26:44,414 - INFO - Accuracy: 0.8669, Precision: 0.8375, Recall: 0.9134, F1 Score: 0.8738
-2024-12-09 16:26:44,416 - INFO - ROC AUC: 0.9343
-2024-12-09 16:26:44,416 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:26:44,416 - INFO - Training on 13952 samples...
-2024-12-09 16:26:44,429 - INFO - Train epoch: 95 [0/13952 (0%)]	Loss: 0.202826
-2024-12-09 16:26:46,050 - INFO - Train epoch: 95 [330240/13952 (73%)]	Loss: 0.158908
-2024-12-09 16:26:46,650 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:26:46,932 - INFO - Accuracy: 0.8689, Precision: 0.8628, Recall: 0.8802, F1 Score: 0.8714
-2024-12-09 16:26:46,933 - INFO - ROC AUC: 0.9328
-2024-12-09 16:26:46,933 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:26:46,934 - INFO - Training on 13952 samples...
-2024-12-09 16:26:46,948 - INFO - Train epoch: 96 [0/13952 (0%)]	Loss: 0.105547
-2024-12-09 16:26:48,565 - INFO - Train epoch: 96 [327520/13952 (73%)]	Loss: 0.104108
-2024-12-09 16:26:49,144 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:26:49,430 - INFO - Accuracy: 0.8652, Precision: 0.8367, Recall: 0.9106, F1 Score: 0.8720
-2024-12-09 16:26:49,432 - INFO - ROC AUC: 0.9311
-2024-12-09 16:26:49,432 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:26:49,432 - INFO - Training on 13952 samples...
-2024-12-09 16:26:49,442 - INFO - Train epoch: 97 [0/13952 (0%)]	Loss: 0.071016
-2024-12-09 16:26:50,991 - INFO - Train epoch: 97 [318240/13952 (73%)]	Loss: 0.077914
-2024-12-09 16:26:51,607 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:26:51,890 - INFO - Accuracy: 0.8657, Precision: 0.8415, Recall: 0.9042, F1 Score: 0.8718
-2024-12-09 16:26:51,892 - INFO - ROC AUC: 0.9325
-2024-12-09 16:26:51,892 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:26:51,892 - INFO - Training on 13952 samples...
-2024-12-09 16:26:51,902 - INFO - Train epoch: 98 [0/13952 (0%)]	Loss: 0.117566
-2024-12-09 16:26:53,602 - INFO - Train epoch: 98 [283520/13952 (73%)]	Loss: 0.125093
-2024-12-09 16:26:54,156 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:26:54,444 - INFO - Accuracy: 0.8545, Precision: 0.8261, Recall: 0.9014, F1 Score: 0.8621
-2024-12-09 16:26:54,446 - INFO - ROC AUC: 0.9244
-2024-12-09 16:26:54,446 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:26:54,446 - INFO - Training on 13952 samples...
-2024-12-09 16:26:54,456 - INFO - Train epoch: 99 [0/13952 (0%)]	Loss: 0.136335
-2024-12-09 16:26:56,318 - INFO - Train epoch: 99 [271200/13952 (73%)]	Loss: 0.226861
-2024-12-09 16:26:56,929 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:26:57,219 - INFO - Accuracy: 0.8649, Precision: 0.8453, Recall: 0.8962, F1 Score: 0.8700
-2024-12-09 16:26:57,221 - INFO - ROC AUC: 0.9289
-2024-12-09 16:26:57,221 - INFO - Top 30 predictions saved to top_30_predictions.csv
-2024-12-09 16:26:57,221 - INFO - Training on 13952 samples...
-2024-12-09 16:26:57,235 - INFO - Train epoch: 100 [0/13952 (0%)]	Loss: 0.117731
-2024-12-09 16:26:58,874 - INFO - Train epoch: 100 [317920/13952 (73%)]	Loss: 0.209260
-2024-12-09 16:26:59,476 - INFO - Making predictions for 3488 samples...
-2024-12-09 16:26:59,764 - INFO - Accuracy: 0.8626, Precision: 0.8317, Recall: 0.9123, F1 Score: 0.8701
-2024-12-09 16:26:59,766 - INFO - ROC AUC: 0.9315
-2024-12-09 16:26:59,766 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:48:58,537 - INFO - Training on 13952 samples...
+2024-12-09 16:48:58,932 - INFO - Train epoch: 1 [0/13952 (0%)]	Loss: 0.691921
+2024-12-09 16:49:01,364 - INFO - Train epoch: 1 [280960/13952 (73%)]	Loss: 0.478705
+2024-12-09 16:49:02,287 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:49:02,800 - INFO - Accuracy: 0.8446, Precision: 0.8001, Recall: 0.9226, F1 Score: 0.8570
+2024-12-09 16:49:02,804 - INFO - ROC AUC: 0.9223
+2024-12-09 16:49:02,804 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:49:02,813 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:49:02,814 - INFO - Training on 13952 samples...
+2024-12-09 16:49:02,827 - INFO - Train epoch: 2 [0/13952 (0%)]	Loss: 0.449902
+2024-12-09 16:49:04,553 - INFO - Train epoch: 2 [297280/13952 (73%)]	Loss: 0.520417
+2024-12-09 16:49:05,164 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:49:05,456 - INFO - Accuracy: 0.8530, Precision: 0.8021, Recall: 0.9409, F1 Score: 0.8660
+2024-12-09 16:49:05,457 - INFO - ROC AUC: 0.9306
+2024-12-09 16:49:05,457 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:49:05,462 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:49:05,462 - INFO - Training on 13952 samples...
+2024-12-09 16:49:05,474 - INFO - Train epoch: 3 [0/13952 (0%)]	Loss: 0.327590
+2024-12-09 16:49:07,223 - INFO - Train epoch: 3 [280000/13952 (73%)]	Loss: 0.326216
+2024-12-09 16:49:07,841 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:49:08,143 - INFO - Accuracy: 0.8655, Precision: 0.8360, Recall: 0.9123, F1 Score: 0.8725
+2024-12-09 16:49:08,145 - INFO - ROC AUC: 0.9347
+2024-12-09 16:49:08,145 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:49:08,145 - INFO - Training on 13952 samples...
+2024-12-09 16:49:08,159 - INFO - Train epoch: 4 [0/13952 (0%)]	Loss: 0.320885
+2024-12-09 16:49:09,911 - INFO - Train epoch: 4 [309120/13952 (73%)]	Loss: 0.449663
+2024-12-09 16:49:10,529 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:49:10,813 - INFO - Accuracy: 0.8579, Precision: 0.8091, Recall: 0.9404, F1 Score: 0.8698
+2024-12-09 16:49:10,815 - INFO - ROC AUC: 0.9371
+2024-12-09 16:49:10,815 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:49:10,815 - INFO - Training on 13952 samples...
+2024-12-09 16:49:10,826 - INFO - Train epoch: 5 [0/13952 (0%)]	Loss: 0.284100
+2024-12-09 16:49:12,546 - INFO - Train epoch: 5 [308640/13952 (73%)]	Loss: 0.341714
+2024-12-09 16:49:13,149 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:49:13,429 - INFO - Accuracy: 0.8646, Precision: 0.8171, Recall: 0.9427, F1 Score: 0.8754
+2024-12-09 16:49:13,431 - INFO - ROC AUC: 0.9377
+2024-12-09 16:49:13,431 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:49:13,438 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:49:13,438 - INFO - Training on 13952 samples...
+2024-12-09 16:49:13,451 - INFO - Train epoch: 6 [0/13952 (0%)]	Loss: 0.242292
+2024-12-09 16:49:15,153 - INFO - Train epoch: 6 [340160/13952 (73%)]	Loss: 0.364520
+2024-12-09 16:49:15,771 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:49:16,057 - INFO - Accuracy: 0.8704, Precision: 0.8506, Recall: 0.9014, F1 Score: 0.8753
+2024-12-09 16:49:16,059 - INFO - ROC AUC: 0.9378
+2024-12-09 16:49:16,059 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:49:16,059 - INFO - Training on 13952 samples...
+2024-12-09 16:49:16,069 - INFO - Train epoch: 7 [0/13952 (0%)]	Loss: 0.312474
+2024-12-09 16:49:17,766 - INFO - Train epoch: 7 [293600/13952 (73%)]	Loss: 0.328276
+2024-12-09 16:49:18,377 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:49:18,670 - INFO - Accuracy: 0.8712, Precision: 0.8378, Recall: 0.9237, F1 Score: 0.8786
+2024-12-09 16:49:18,673 - INFO - ROC AUC: 0.9415
+2024-12-09 16:49:18,673 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:49:18,673 - INFO - Training on 13952 samples...
+2024-12-09 16:49:18,683 - INFO - Train epoch: 8 [0/13952 (0%)]	Loss: 0.334132
+2024-12-09 16:49:20,418 - INFO - Train epoch: 8 [320960/13952 (73%)]	Loss: 0.308806
+2024-12-09 16:49:21,021 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:49:21,322 - INFO - Accuracy: 0.8640, Precision: 0.8237, Recall: 0.9295, F1 Score: 0.8734
+2024-12-09 16:49:21,324 - INFO - ROC AUC: 0.9401
+2024-12-09 16:49:21,324 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:49:21,324 - INFO - Training on 13952 samples...
+2024-12-09 16:49:21,338 - INFO - Train epoch: 9 [0/13952 (0%)]	Loss: 0.209464
+2024-12-09 16:49:23,054 - INFO - Train epoch: 9 [295680/13952 (73%)]	Loss: 0.290568
+2024-12-09 16:49:23,691 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:49:23,992 - INFO - Accuracy: 0.8733, Precision: 0.8455, Recall: 0.9163, F1 Score: 0.8795
+2024-12-09 16:49:23,994 - INFO - ROC AUC: 0.9414
+2024-12-09 16:49:23,994 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:49:23,994 - INFO - Training on 13952 samples...
+2024-12-09 16:49:24,006 - INFO - Train epoch: 10 [0/13952 (0%)]	Loss: 0.310028
+2024-12-09 16:49:25,817 - INFO - Train epoch: 10 [299200/13952 (73%)]	Loss: 0.210872
+2024-12-09 16:49:26,458 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:49:26,755 - INFO - Accuracy: 0.8727, Precision: 0.8684, Recall: 0.8813, F1 Score: 0.8748
+2024-12-09 16:49:26,757 - INFO - ROC AUC: 0.9422
+2024-12-09 16:49:26,757 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:49:26,757 - INFO - Training on 13952 samples...
+2024-12-09 16:49:26,770 - INFO - Train epoch: 11 [0/13952 (0%)]	Loss: 0.255044
+2024-12-09 16:49:28,563 - INFO - Train epoch: 11 [328960/13952 (73%)]	Loss: 0.394719
+2024-12-09 16:49:29,190 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:49:29,499 - INFO - Accuracy: 0.8715, Precision: 0.8552, Recall: 0.8974, F1 Score: 0.8758
+2024-12-09 16:49:29,500 - INFO - ROC AUC: 0.9427
+2024-12-09 16:49:29,500 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:49:29,501 - INFO - Training on 13952 samples...
+2024-12-09 16:49:29,515 - INFO - Train epoch: 12 [0/13952 (0%)]	Loss: 0.302696
+2024-12-09 16:49:31,335 - INFO - Train epoch: 12 [284000/13952 (73%)]	Loss: 0.262422
+2024-12-09 16:49:31,961 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:49:32,260 - INFO - Accuracy: 0.8756, Precision: 0.8683, Recall: 0.8882, F1 Score: 0.8781
+2024-12-09 16:49:32,262 - INFO - ROC AUC: 0.9416
+2024-12-09 16:49:32,262 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:49:32,262 - INFO - Training on 13952 samples...
+2024-12-09 16:49:32,276 - INFO - Train epoch: 13 [0/13952 (0%)]	Loss: 0.402960
+2024-12-09 16:49:33,975 - INFO - Train epoch: 13 [308320/13952 (73%)]	Loss: 0.170545
+2024-12-09 16:49:34,516 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:49:34,809 - INFO - Accuracy: 0.8675, Precision: 0.8212, Recall: 0.9427, F1 Score: 0.8777
+2024-12-09 16:49:34,810 - INFO - ROC AUC: 0.9419
+2024-12-09 16:49:34,810 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:49:34,810 - INFO - Training on 13952 samples...
+2024-12-09 16:49:34,823 - INFO - Train epoch: 14 [0/13952 (0%)]	Loss: 0.393315
+2024-12-09 16:49:36,583 - INFO - Train epoch: 14 [333120/13952 (73%)]	Loss: 0.430147
+2024-12-09 16:49:37,227 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:49:37,516 - INFO - Accuracy: 0.8753, Precision: 0.8461, Recall: 0.9203, F1 Score: 0.8816
+2024-12-09 16:49:37,518 - INFO - ROC AUC: 0.9426
+2024-12-09 16:49:37,518 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:49:37,518 - INFO - Training on 13952 samples...
+2024-12-09 16:49:37,530 - INFO - Train epoch: 15 [0/13952 (0%)]	Loss: 0.244510
+2024-12-09 16:49:39,308 - INFO - Train epoch: 15 [328000/13952 (73%)]	Loss: 0.251712
+2024-12-09 16:49:39,959 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:49:40,252 - INFO - Accuracy: 0.8762, Precision: 0.8441, Recall: 0.9255, F1 Score: 0.8829
+2024-12-09 16:49:40,254 - INFO - ROC AUC: 0.9431
+2024-12-09 16:49:40,254 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:49:40,254 - INFO - Training on 13952 samples...
+2024-12-09 16:49:40,267 - INFO - Train epoch: 16 [0/13952 (0%)]	Loss: 0.218330
+2024-12-09 16:49:42,074 - INFO - Train epoch: 16 [328000/13952 (73%)]	Loss: 0.219543
+2024-12-09 16:49:42,723 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:49:43,012 - INFO - Accuracy: 0.8738, Precision: 0.8344, Recall: 0.9358, F1 Score: 0.8822
+2024-12-09 16:49:43,014 - INFO - ROC AUC: 0.9445
+2024-12-09 16:49:43,014 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:49:43,014 - INFO - Training on 13952 samples...
+2024-12-09 16:49:43,025 - INFO - Train epoch: 17 [0/13952 (0%)]	Loss: 0.231338
+2024-12-09 16:49:44,862 - INFO - Train epoch: 17 [367360/13952 (73%)]	Loss: 0.294911
+2024-12-09 16:49:45,507 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:49:45,815 - INFO - Accuracy: 0.8782, Precision: 0.8562, Recall: 0.9117, F1 Score: 0.8831
+2024-12-09 16:49:45,817 - INFO - ROC AUC: 0.9418
+2024-12-09 16:49:45,818 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:49:45,818 - INFO - Training on 13952 samples...
+2024-12-09 16:49:45,831 - INFO - Train epoch: 18 [0/13952 (0%)]	Loss: 0.204117
+2024-12-09 16:49:47,610 - INFO - Train epoch: 18 [283520/13952 (73%)]	Loss: 0.336427
+2024-12-09 16:49:48,248 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:49:48,554 - INFO - Accuracy: 0.8718, Precision: 0.8351, Recall: 0.9295, F1 Score: 0.8798
+2024-12-09 16:49:48,555 - INFO - ROC AUC: 0.9413
+2024-12-09 16:49:48,555 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:49:48,556 - INFO - Training on 13952 samples...
+2024-12-09 16:49:48,569 - INFO - Train epoch: 19 [0/13952 (0%)]	Loss: 0.251666
+2024-12-09 16:49:50,315 - INFO - Train epoch: 19 [314720/13952 (73%)]	Loss: 0.246494
+2024-12-09 16:49:50,931 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:49:51,224 - INFO - Accuracy: 0.8764, Precision: 0.8410, Recall: 0.9312, F1 Score: 0.8838
+2024-12-09 16:49:51,227 - INFO - ROC AUC: 0.9435
+2024-12-09 16:49:51,227 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:49:51,227 - INFO - Training on 13952 samples...
+2024-12-09 16:49:51,240 - INFO - Train epoch: 20 [0/13952 (0%)]	Loss: 0.232830
+2024-12-09 16:49:52,947 - INFO - Train epoch: 20 [320480/13952 (73%)]	Loss: 0.321108
+2024-12-09 16:49:53,560 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:49:53,859 - INFO - Accuracy: 0.8704, Precision: 0.8400, Recall: 0.9180, F1 Score: 0.8773
+2024-12-09 16:49:53,860 - INFO - ROC AUC: 0.9376
+2024-12-09 16:49:53,860 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:49:53,861 - INFO - Training on 13952 samples...
+2024-12-09 16:49:53,872 - INFO - Train epoch: 21 [0/13952 (0%)]	Loss: 0.232849
+2024-12-09 16:49:55,629 - INFO - Train epoch: 21 [343680/13952 (73%)]	Loss: 0.304178
+2024-12-09 16:49:56,265 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:49:56,567 - INFO - Accuracy: 0.8793, Precision: 0.8569, Recall: 0.9134, F1 Score: 0.8843
+2024-12-09 16:49:56,568 - INFO - ROC AUC: 0.9446
+2024-12-09 16:49:56,569 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:49:56,569 - INFO - Training on 13952 samples...
+2024-12-09 16:49:56,580 - INFO - Train epoch: 22 [0/13952 (0%)]	Loss: 0.134557
+2024-12-09 16:49:58,306 - INFO - Train epoch: 22 [336320/13952 (73%)]	Loss: 0.342921
+2024-12-09 16:49:58,914 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:49:59,205 - INFO - Accuracy: 0.8764, Precision: 0.8417, Recall: 0.9300, F1 Score: 0.8837
+2024-12-09 16:49:59,207 - INFO - ROC AUC: 0.9439
+2024-12-09 16:49:59,207 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:49:59,207 - INFO - Training on 13952 samples...
+2024-12-09 16:49:59,218 - INFO - Train epoch: 23 [0/13952 (0%)]	Loss: 0.227274
+2024-12-09 16:50:00,977 - INFO - Train epoch: 23 [308960/13952 (73%)]	Loss: 0.302639
+2024-12-09 16:50:01,599 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:50:01,895 - INFO - Accuracy: 0.8776, Precision: 0.8696, Recall: 0.8911, F1 Score: 0.8802
+2024-12-09 16:50:01,897 - INFO - ROC AUC: 0.9439
+2024-12-09 16:50:01,897 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:50:01,897 - INFO - Training on 13952 samples...
+2024-12-09 16:50:01,908 - INFO - Train epoch: 24 [0/13952 (0%)]	Loss: 0.277976
+2024-12-09 16:50:03,667 - INFO - Train epoch: 24 [326240/13952 (73%)]	Loss: 0.194180
+2024-12-09 16:50:04,297 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:50:04,591 - INFO - Accuracy: 0.8791, Precision: 0.8468, Recall: 0.9283, F1 Score: 0.8857
+2024-12-09 16:50:04,593 - INFO - ROC AUC: 0.9453
+2024-12-09 16:50:04,593 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:50:04,593 - INFO - Training on 13952 samples...
+2024-12-09 16:50:04,607 - INFO - Train epoch: 25 [0/13952 (0%)]	Loss: 0.301099
+2024-12-09 16:50:06,355 - INFO - Train epoch: 25 [319520/13952 (73%)]	Loss: 0.247070
+2024-12-09 16:50:06,970 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:50:07,278 - INFO - Accuracy: 0.8744, Precision: 0.8415, Recall: 0.9255, F1 Score: 0.8815
+2024-12-09 16:50:07,280 - INFO - ROC AUC: 0.9428
+2024-12-09 16:50:07,280 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:50:07,280 - INFO - Training on 13952 samples...
+2024-12-09 16:50:07,292 - INFO - Train epoch: 26 [0/13952 (0%)]	Loss: 0.274007
+2024-12-09 16:50:09,047 - INFO - Train epoch: 26 [300000/13952 (73%)]	Loss: 0.288315
+2024-12-09 16:50:09,683 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:50:09,975 - INFO - Accuracy: 0.8756, Precision: 0.8404, Recall: 0.9300, F1 Score: 0.8830
+2024-12-09 16:50:09,977 - INFO - ROC AUC: 0.9432
+2024-12-09 16:50:09,977 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:50:09,977 - INFO - Training on 13952 samples...
+2024-12-09 16:50:09,989 - INFO - Train epoch: 27 [0/13952 (0%)]	Loss: 0.303547
+2024-12-09 16:50:11,733 - INFO - Train epoch: 27 [324640/13952 (73%)]	Loss: 0.251594
+2024-12-09 16:50:12,292 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:50:12,565 - INFO - Accuracy: 0.8808, Precision: 0.8612, Recall: 0.9106, F1 Score: 0.8852
+2024-12-09 16:50:12,567 - INFO - ROC AUC: 0.9432
+2024-12-09 16:50:12,567 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:50:12,567 - INFO - Training on 13952 samples...
+2024-12-09 16:50:12,578 - INFO - Train epoch: 28 [0/13952 (0%)]	Loss: 0.259849
+2024-12-09 16:50:14,094 - INFO - Train epoch: 28 [329920/13952 (73%)]	Loss: 0.196447
+2024-12-09 16:50:14,630 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:50:14,913 - INFO - Accuracy: 0.8767, Precision: 0.8585, Recall: 0.9048, F1 Score: 0.8811
+2024-12-09 16:50:14,915 - INFO - ROC AUC: 0.9431
+2024-12-09 16:50:14,915 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:50:14,915 - INFO - Training on 13952 samples...
+2024-12-09 16:50:14,925 - INFO - Train epoch: 29 [0/13952 (0%)]	Loss: 0.185949
+2024-12-09 16:50:16,496 - INFO - Train epoch: 29 [309920/13952 (73%)]	Loss: 0.263767
+2024-12-09 16:50:17,068 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:50:17,360 - INFO - Accuracy: 0.8764, Precision: 0.8379, Recall: 0.9364, F1 Score: 0.8844
+2024-12-09 16:50:17,362 - INFO - ROC AUC: 0.9459
+2024-12-09 16:50:17,362 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:50:17,362 - INFO - Training on 13952 samples...
+2024-12-09 16:50:17,372 - INFO - Train epoch: 30 [0/13952 (0%)]	Loss: 0.134048
+2024-12-09 16:50:18,921 - INFO - Train epoch: 30 [304640/13952 (73%)]	Loss: 0.245691
+2024-12-09 16:50:19,453 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:50:19,740 - INFO - Accuracy: 0.8764, Precision: 0.8527, Recall: 0.9128, F1 Score: 0.8818
+2024-12-09 16:50:19,741 - INFO - ROC AUC: 0.9451
+2024-12-09 16:50:19,742 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:50:19,742 - INFO - Training on 13952 samples...
+2024-12-09 16:50:19,753 - INFO - Train epoch: 31 [0/13952 (0%)]	Loss: 0.340928
+2024-12-09 16:50:21,357 - INFO - Train epoch: 31 [289280/13952 (73%)]	Loss: 0.238977
+2024-12-09 16:50:21,912 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:50:22,185 - INFO - Accuracy: 0.8767, Precision: 0.8425, Recall: 0.9295, F1 Score: 0.8839
+2024-12-09 16:50:22,187 - INFO - ROC AUC: 0.9435
+2024-12-09 16:50:22,187 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:50:22,187 - INFO - Training on 13952 samples...
+2024-12-09 16:50:22,197 - INFO - Train epoch: 32 [0/13952 (0%)]	Loss: 0.287619
+2024-12-09 16:50:23,755 - INFO - Train epoch: 32 [292960/13952 (73%)]	Loss: 0.126648
+2024-12-09 16:50:24,291 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:50:24,578 - INFO - Accuracy: 0.8759, Precision: 0.8380, Recall: 0.9346, F1 Score: 0.8837
+2024-12-09 16:50:24,579 - INFO - ROC AUC: 0.9392
+2024-12-09 16:50:24,579 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:50:24,580 - INFO - Training on 13952 samples...
+2024-12-09 16:50:24,589 - INFO - Train epoch: 33 [0/13952 (0%)]	Loss: 0.154984
+2024-12-09 16:50:26,178 - INFO - Train epoch: 33 [318720/13952 (73%)]	Loss: 0.160158
+2024-12-09 16:50:26,734 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:50:27,021 - INFO - Accuracy: 0.8675, Precision: 0.8241, Recall: 0.9375, F1 Score: 0.8771
+2024-12-09 16:50:27,023 - INFO - ROC AUC: 0.9352
+2024-12-09 16:50:27,023 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:50:27,023 - INFO - Training on 13952 samples...
+2024-12-09 16:50:27,033 - INFO - Train epoch: 34 [0/13952 (0%)]	Loss: 0.244269
+2024-12-09 16:50:28,552 - INFO - Train epoch: 34 [329120/13952 (73%)]	Loss: 0.183210
+2024-12-09 16:50:29,106 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:50:29,390 - INFO - Accuracy: 0.8753, Precision: 0.8653, Recall: 0.8916, F1 Score: 0.8783
+2024-12-09 16:50:29,391 - INFO - ROC AUC: 0.9439
+2024-12-09 16:50:29,391 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:50:29,391 - INFO - Training on 13952 samples...
+2024-12-09 16:50:29,404 - INFO - Train epoch: 35 [0/13952 (0%)]	Loss: 0.144013
+2024-12-09 16:50:30,933 - INFO - Train epoch: 35 [277280/13952 (73%)]	Loss: 0.168082
+2024-12-09 16:50:31,569 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:50:31,847 - INFO - Accuracy: 0.8741, Precision: 0.8271, Recall: 0.9490, F1 Score: 0.8838
+2024-12-09 16:50:31,849 - INFO - ROC AUC: 0.9465
+2024-12-09 16:50:31,849 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:50:31,856 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:50:31,856 - INFO - Training on 13952 samples...
+2024-12-09 16:50:31,866 - INFO - Train epoch: 36 [0/13952 (0%)]	Loss: 0.275714
+2024-12-09 16:50:33,390 - INFO - Train epoch: 36 [307840/13952 (73%)]	Loss: 0.193470
+2024-12-09 16:50:33,929 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:50:34,219 - INFO - Accuracy: 0.8791, Precision: 0.8446, Recall: 0.9318, F1 Score: 0.8860
+2024-12-09 16:50:34,221 - INFO - ROC AUC: 0.9451
+2024-12-09 16:50:34,221 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:50:34,221 - INFO - Training on 13952 samples...
+2024-12-09 16:50:34,231 - INFO - Train epoch: 37 [0/13952 (0%)]	Loss: 0.316806
+2024-12-09 16:50:35,786 - INFO - Train epoch: 37 [332640/13952 (73%)]	Loss: 0.193960
+2024-12-09 16:50:36,332 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:50:36,617 - INFO - Accuracy: 0.8730, Precision: 0.8317, Recall: 0.9381, F1 Score: 0.8817
+2024-12-09 16:50:36,619 - INFO - ROC AUC: 0.9386
+2024-12-09 16:50:36,619 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:50:36,619 - INFO - Training on 13952 samples...
+2024-12-09 16:50:36,629 - INFO - Train epoch: 38 [0/13952 (0%)]	Loss: 0.358294
+2024-12-09 16:50:38,162 - INFO - Train epoch: 38 [326880/13952 (73%)]	Loss: 0.196472
+2024-12-09 16:50:38,703 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:50:39,003 - INFO - Accuracy: 0.8773, Precision: 0.8511, Recall: 0.9174, F1 Score: 0.8830
+2024-12-09 16:50:39,005 - INFO - ROC AUC: 0.9404
+2024-12-09 16:50:39,005 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:50:39,005 - INFO - Training on 13952 samples...
+2024-12-09 16:50:39,018 - INFO - Train epoch: 39 [0/13952 (0%)]	Loss: 0.213931
+2024-12-09 16:50:40,578 - INFO - Train epoch: 39 [289760/13952 (73%)]	Loss: 0.127500
+2024-12-09 16:50:41,146 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:50:41,441 - INFO - Accuracy: 0.8721, Precision: 0.8255, Recall: 0.9467, F1 Score: 0.8819
+2024-12-09 16:50:41,443 - INFO - ROC AUC: 0.9455
+2024-12-09 16:50:41,443 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:50:41,443 - INFO - Training on 13952 samples...
+2024-12-09 16:50:41,455 - INFO - Train epoch: 40 [0/13952 (0%)]	Loss: 0.228347
+2024-12-09 16:50:42,963 - INFO - Train epoch: 40 [288640/13952 (73%)]	Loss: 0.132970
+2024-12-09 16:50:43,500 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:50:43,792 - INFO - Accuracy: 0.8704, Precision: 0.8306, Recall: 0.9335, F1 Score: 0.8790
+2024-12-09 16:50:43,794 - INFO - ROC AUC: 0.9419
+2024-12-09 16:50:43,794 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:50:43,794 - INFO - Training on 13952 samples...
+2024-12-09 16:50:43,807 - INFO - Train epoch: 41 [0/13952 (0%)]	Loss: 0.194815
+2024-12-09 16:50:45,411 - INFO - Train epoch: 41 [298080/13952 (73%)]	Loss: 0.190177
+2024-12-09 16:50:45,947 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:50:46,248 - INFO - Accuracy: 0.8718, Precision: 0.8287, Recall: 0.9404, F1 Score: 0.8810
+2024-12-09 16:50:46,249 - INFO - ROC AUC: 0.9416
+2024-12-09 16:50:46,249 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:50:46,249 - INFO - Training on 13952 samples...
+2024-12-09 16:50:46,260 - INFO - Train epoch: 42 [0/13952 (0%)]	Loss: 0.138531
+2024-12-09 16:50:47,811 - INFO - Train epoch: 42 [327360/13952 (73%)]	Loss: 0.168286
+2024-12-09 16:50:48,357 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:50:48,655 - INFO - Accuracy: 0.8666, Precision: 0.8504, Recall: 0.8928, F1 Score: 0.8710
+2024-12-09 16:50:48,657 - INFO - ROC AUC: 0.9363
+2024-12-09 16:50:48,657 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:50:48,657 - INFO - Training on 13952 samples...
+2024-12-09 16:50:48,667 - INFO - Train epoch: 43 [0/13952 (0%)]	Loss: 0.247916
+2024-12-09 16:50:50,226 - INFO - Train epoch: 43 [329920/13952 (73%)]	Loss: 0.187201
+2024-12-09 16:50:50,811 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:50:51,098 - INFO - Accuracy: 0.8718, Precision: 0.8287, Recall: 0.9404, F1 Score: 0.8810
+2024-12-09 16:50:51,099 - INFO - ROC AUC: 0.9411
+2024-12-09 16:50:51,100 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:50:51,100 - INFO - Training on 13952 samples...
+2024-12-09 16:50:51,111 - INFO - Train epoch: 44 [0/13952 (0%)]	Loss: 0.179713
+2024-12-09 16:50:52,690 - INFO - Train epoch: 44 [345600/13952 (73%)]	Loss: 0.279403
+2024-12-09 16:50:53,246 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:50:53,522 - INFO - Accuracy: 0.8776, Precision: 0.8497, Recall: 0.9203, F1 Score: 0.8836
+2024-12-09 16:50:53,523 - INFO - ROC AUC: 0.9428
+2024-12-09 16:50:53,523 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:50:53,524 - INFO - Training on 13952 samples...
+2024-12-09 16:50:53,533 - INFO - Train epoch: 45 [0/13952 (0%)]	Loss: 0.255026
+2024-12-09 16:50:55,069 - INFO - Train epoch: 45 [304800/13952 (73%)]	Loss: 0.311550
+2024-12-09 16:50:55,618 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:50:55,902 - INFO - Accuracy: 0.8730, Precision: 0.8425, Recall: 0.9203, F1 Score: 0.8797
+2024-12-09 16:50:55,904 - INFO - ROC AUC: 0.9392
+2024-12-09 16:50:55,904 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:50:55,904 - INFO - Training on 13952 samples...
+2024-12-09 16:50:55,914 - INFO - Train epoch: 46 [0/13952 (0%)]	Loss: 0.179834
+2024-12-09 16:50:57,521 - INFO - Train epoch: 46 [284000/13952 (73%)]	Loss: 0.390849
+2024-12-09 16:50:58,066 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:50:58,352 - INFO - Accuracy: 0.8657, Precision: 0.8323, Recall: 0.9192, F1 Score: 0.8736
+2024-12-09 16:50:58,354 - INFO - ROC AUC: 0.9379
+2024-12-09 16:50:58,354 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:50:58,354 - INFO - Training on 13952 samples...
+2024-12-09 16:50:58,367 - INFO - Train epoch: 47 [0/13952 (0%)]	Loss: 0.315631
+2024-12-09 16:50:59,875 - INFO - Train epoch: 47 [286080/13952 (73%)]	Loss: 0.288912
+2024-12-09 16:51:00,440 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:51:00,718 - INFO - Accuracy: 0.8756, Precision: 0.8404, Recall: 0.9300, F1 Score: 0.8830
+2024-12-09 16:51:00,719 - INFO - ROC AUC: 0.9455
+2024-12-09 16:51:00,719 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:51:00,719 - INFO - Training on 13952 samples...
+2024-12-09 16:51:00,732 - INFO - Train epoch: 48 [0/13952 (0%)]	Loss: 0.127022
+2024-12-09 16:51:02,326 - INFO - Train epoch: 48 [297120/13952 (73%)]	Loss: 0.184795
+2024-12-09 16:51:02,904 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:51:03,192 - INFO - Accuracy: 0.8655, Precision: 0.8481, Recall: 0.8933, F1 Score: 0.8701
+2024-12-09 16:51:03,193 - INFO - ROC AUC: 0.9335
+2024-12-09 16:51:03,193 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:51:03,194 - INFO - Training on 13952 samples...
+2024-12-09 16:51:03,207 - INFO - Train epoch: 49 [0/13952 (0%)]	Loss: 0.268624
+2024-12-09 16:51:04,705 - INFO - Train epoch: 49 [341920/13952 (73%)]	Loss: 0.209154
+2024-12-09 16:51:05,240 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:51:05,526 - INFO - Accuracy: 0.8683, Precision: 0.8208, Recall: 0.9455, F1 Score: 0.8788
+2024-12-09 16:51:05,528 - INFO - ROC AUC: 0.9357
+2024-12-09 16:51:05,528 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:51:05,528 - INFO - Training on 13952 samples...
+2024-12-09 16:51:05,538 - INFO - Train epoch: 50 [0/13952 (0%)]	Loss: 0.221199
+2024-12-09 16:51:07,048 - INFO - Train epoch: 50 [319680/13952 (73%)]	Loss: 0.385326
+2024-12-09 16:51:07,586 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:51:07,872 - INFO - Accuracy: 0.8678, Precision: 0.8353, Recall: 0.9192, F1 Score: 0.8752
+2024-12-09 16:51:07,875 - INFO - ROC AUC: 0.9367
+2024-12-09 16:51:07,875 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:51:07,875 - INFO - Training on 13952 samples...
+2024-12-09 16:51:07,885 - INFO - Train epoch: 51 [0/13952 (0%)]	Loss: 0.176663
+2024-12-09 16:51:09,429 - INFO - Train epoch: 51 [285600/13952 (73%)]	Loss: 0.211125
+2024-12-09 16:51:09,964 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:51:10,261 - INFO - Accuracy: 0.8764, Precision: 0.8685, Recall: 0.8899, F1 Score: 0.8791
+2024-12-09 16:51:10,263 - INFO - ROC AUC: 0.9434
+2024-12-09 16:51:10,263 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:51:10,263 - INFO - Training on 13952 samples...
+2024-12-09 16:51:10,275 - INFO - Train epoch: 52 [0/13952 (0%)]	Loss: 0.254614
+2024-12-09 16:51:11,807 - INFO - Train epoch: 52 [301920/13952 (73%)]	Loss: 0.248815
+2024-12-09 16:51:12,388 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:51:12,669 - INFO - Accuracy: 0.8712, Precision: 0.8417, Recall: 0.9174, F1 Score: 0.8779
+2024-12-09 16:51:12,671 - INFO - ROC AUC: 0.9372
+2024-12-09 16:51:12,671 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:51:12,671 - INFO - Training on 13952 samples...
+2024-12-09 16:51:12,684 - INFO - Train epoch: 53 [0/13952 (0%)]	Loss: 0.229417
+2024-12-09 16:51:14,267 - INFO - Train epoch: 53 [331680/13952 (73%)]	Loss: 0.155395
+2024-12-09 16:51:14,823 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:51:15,115 - INFO - Accuracy: 0.8683, Precision: 0.8387, Recall: 0.9151, F1 Score: 0.8752
+2024-12-09 16:51:15,117 - INFO - ROC AUC: 0.9362
+2024-12-09 16:51:15,117 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:51:15,117 - INFO - Training on 13952 samples...
+2024-12-09 16:51:15,127 - INFO - Train epoch: 54 [0/13952 (0%)]	Loss: 0.154994
+2024-12-09 16:51:16,642 - INFO - Train epoch: 54 [310560/13952 (73%)]	Loss: 0.262074
+2024-12-09 16:51:17,248 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:51:17,541 - INFO - Accuracy: 0.8776, Precision: 0.8561, Recall: 0.9106, F1 Score: 0.8825
+2024-12-09 16:51:17,542 - INFO - ROC AUC: 0.9437
+2024-12-09 16:51:17,542 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:51:17,542 - INFO - Training on 13952 samples...
+2024-12-09 16:51:17,552 - INFO - Train epoch: 55 [0/13952 (0%)]	Loss: 0.153656
+2024-12-09 16:51:19,133 - INFO - Train epoch: 55 [296960/13952 (73%)]	Loss: 0.251496
+2024-12-09 16:51:19,719 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:51:20,010 - INFO - Accuracy: 0.8738, Precision: 0.8707, Recall: 0.8807, F1 Score: 0.8757
+2024-12-09 16:51:20,011 - INFO - ROC AUC: 0.9403
+2024-12-09 16:51:20,011 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:51:20,011 - INFO - Training on 13952 samples...
+2024-12-09 16:51:20,021 - INFO - Train epoch: 56 [0/13952 (0%)]	Loss: 0.230408
+2024-12-09 16:51:21,581 - INFO - Train epoch: 56 [305920/13952 (73%)]	Loss: 0.354651
+2024-12-09 16:51:22,136 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:51:22,427 - INFO - Accuracy: 0.8669, Precision: 0.8210, Recall: 0.9415, F1 Score: 0.8771
+2024-12-09 16:51:22,428 - INFO - ROC AUC: 0.9367
+2024-12-09 16:51:22,429 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:51:22,429 - INFO - Training on 13952 samples...
+2024-12-09 16:51:22,444 - INFO - Train epoch: 57 [0/13952 (0%)]	Loss: 0.148870
+2024-12-09 16:51:23,984 - INFO - Train epoch: 57 [328960/13952 (73%)]	Loss: 0.147445
+2024-12-09 16:51:24,529 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:51:24,815 - INFO - Accuracy: 0.8733, Precision: 0.8545, Recall: 0.9025, F1 Score: 0.8779
+2024-12-09 16:51:24,817 - INFO - ROC AUC: 0.9405
+2024-12-09 16:51:24,817 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:51:24,817 - INFO - Training on 13952 samples...
+2024-12-09 16:51:24,830 - INFO - Train epoch: 58 [0/13952 (0%)]	Loss: 0.162301
+2024-12-09 16:51:26,415 - INFO - Train epoch: 58 [329120/13952 (73%)]	Loss: 0.280093
+2024-12-09 16:51:26,992 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:51:27,281 - INFO - Accuracy: 0.8672, Precision: 0.8599, Recall: 0.8802, F1 Score: 0.8699
+2024-12-09 16:51:27,282 - INFO - ROC AUC: 0.9371
+2024-12-09 16:51:27,282 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:51:27,282 - INFO - Training on 13952 samples...
+2024-12-09 16:51:27,295 - INFO - Train epoch: 59 [0/13952 (0%)]	Loss: 0.237565
+2024-12-09 16:51:28,820 - INFO - Train epoch: 59 [311040/13952 (73%)]	Loss: 0.181968
+2024-12-09 16:51:29,369 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:51:29,662 - INFO - Accuracy: 0.8626, Precision: 0.8246, Recall: 0.9243, F1 Score: 0.8716
+2024-12-09 16:51:29,664 - INFO - ROC AUC: 0.9292
+2024-12-09 16:51:29,664 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:51:29,664 - INFO - Training on 13952 samples...
+2024-12-09 16:51:29,677 - INFO - Train epoch: 60 [0/13952 (0%)]	Loss: 0.104894
+2024-12-09 16:51:31,231 - INFO - Train epoch: 60 [305600/13952 (73%)]	Loss: 0.222478
+2024-12-09 16:51:31,768 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:51:32,062 - INFO - Accuracy: 0.8692, Precision: 0.8522, Recall: 0.8962, F1 Score: 0.8737
+2024-12-09 16:51:32,063 - INFO - ROC AUC: 0.9379
+2024-12-09 16:51:32,064 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:51:32,064 - INFO - Training on 13952 samples...
+2024-12-09 16:51:32,076 - INFO - Train epoch: 61 [0/13952 (0%)]	Loss: 0.183501
+2024-12-09 16:51:33,662 - INFO - Train epoch: 61 [319040/13952 (73%)]	Loss: 0.200429
+2024-12-09 16:51:34,193 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:51:34,485 - INFO - Accuracy: 0.8701, Precision: 0.8410, Recall: 0.9157, F1 Score: 0.8767
+2024-12-09 16:51:34,487 - INFO - ROC AUC: 0.9391
+2024-12-09 16:51:34,487 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:51:34,487 - INFO - Training on 13952 samples...
+2024-12-09 16:51:34,500 - INFO - Train epoch: 62 [0/13952 (0%)]	Loss: 0.197626
+2024-12-09 16:51:36,044 - INFO - Train epoch: 62 [284960/13952 (73%)]	Loss: 0.165314
+2024-12-09 16:51:36,571 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:51:36,868 - INFO - Accuracy: 0.8709, Precision: 0.8489, Recall: 0.9054, F1 Score: 0.8762
+2024-12-09 16:51:36,871 - INFO - ROC AUC: 0.9392
+2024-12-09 16:51:36,871 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:51:36,871 - INFO - Training on 13952 samples...
+2024-12-09 16:51:36,884 - INFO - Train epoch: 63 [0/13952 (0%)]	Loss: 0.178172
+2024-12-09 16:51:38,537 - INFO - Train epoch: 63 [276960/13952 (73%)]	Loss: 0.105656
+2024-12-09 16:51:39,124 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:51:39,400 - INFO - Accuracy: 0.8620, Precision: 0.8521, Recall: 0.8790, F1 Score: 0.8654
+2024-12-09 16:51:39,401 - INFO - ROC AUC: 0.9334
+2024-12-09 16:51:39,402 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:51:39,402 - INFO - Training on 13952 samples...
+2024-12-09 16:51:39,415 - INFO - Train epoch: 64 [0/13952 (0%)]	Loss: 0.228372
+2024-12-09 16:51:40,994 - INFO - Train epoch: 64 [287040/13952 (73%)]	Loss: 0.093392
+2024-12-09 16:51:41,532 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:51:41,825 - INFO - Accuracy: 0.8634, Precision: 0.8593, Recall: 0.8721, F1 Score: 0.8657
+2024-12-09 16:51:41,828 - INFO - ROC AUC: 0.9355
+2024-12-09 16:51:41,828 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:51:41,828 - INFO - Training on 13952 samples...
+2024-12-09 16:51:41,838 - INFO - Train epoch: 65 [0/13952 (0%)]	Loss: 0.111962
+2024-12-09 16:51:43,388 - INFO - Train epoch: 65 [312480/13952 (73%)]	Loss: 0.204403
+2024-12-09 16:51:43,914 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:51:44,189 - INFO - Accuracy: 0.8707, Precision: 0.8609, Recall: 0.8870, F1 Score: 0.8738
+2024-12-09 16:51:44,192 - INFO - ROC AUC: 0.9381
+2024-12-09 16:51:44,192 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:51:44,193 - INFO - Training on 13952 samples...
+2024-12-09 16:51:44,205 - INFO - Train epoch: 66 [0/13952 (0%)]	Loss: 0.239746
+2024-12-09 16:51:45,753 - INFO - Train epoch: 66 [340320/13952 (73%)]	Loss: 0.165175
+2024-12-09 16:51:46,366 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:51:46,664 - INFO - Accuracy: 0.8640, Precision: 0.8342, Recall: 0.9117, F1 Score: 0.8712
+2024-12-09 16:51:46,665 - INFO - ROC AUC: 0.9336
+2024-12-09 16:51:46,666 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:51:46,666 - INFO - Training on 13952 samples...
+2024-12-09 16:51:46,679 - INFO - Train epoch: 67 [0/13952 (0%)]	Loss: 0.081398
+2024-12-09 16:51:48,302 - INFO - Train epoch: 67 [312480/13952 (73%)]	Loss: 0.184521
+2024-12-09 16:51:48,854 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:51:49,141 - INFO - Accuracy: 0.8776, Precision: 0.8538, Recall: 0.9140, F1 Score: 0.8829
+2024-12-09 16:51:49,142 - INFO - ROC AUC: 0.9410
+2024-12-09 16:51:49,143 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:51:49,143 - INFO - Training on 13952 samples...
+2024-12-09 16:51:49,153 - INFO - Train epoch: 68 [0/13952 (0%)]	Loss: 0.153515
+2024-12-09 16:51:50,702 - INFO - Train epoch: 68 [326880/13952 (73%)]	Loss: 0.193580
+2024-12-09 16:51:51,240 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:51:51,535 - INFO - Accuracy: 0.8701, Precision: 0.8540, Recall: 0.8956, F1 Score: 0.8743
+2024-12-09 16:51:51,538 - INFO - ROC AUC: 0.9391
+2024-12-09 16:51:51,538 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:51:51,538 - INFO - Training on 13952 samples...
+2024-12-09 16:51:51,551 - INFO - Train epoch: 69 [0/13952 (0%)]	Loss: 0.127028
+2024-12-09 16:51:53,137 - INFO - Train epoch: 69 [333600/13952 (73%)]	Loss: 0.191222
+2024-12-09 16:51:53,688 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:51:53,971 - INFO - Accuracy: 0.8712, Precision: 0.8378, Recall: 0.9237, F1 Score: 0.8786
+2024-12-09 16:51:53,972 - INFO - ROC AUC: 0.9370
+2024-12-09 16:51:53,972 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:51:53,972 - INFO - Training on 13952 samples...
+2024-12-09 16:51:53,985 - INFO - Train epoch: 70 [0/13952 (0%)]	Loss: 0.134206
+2024-12-09 16:51:55,527 - INFO - Train epoch: 70 [299520/13952 (73%)]	Loss: 0.241492
+2024-12-09 16:51:56,080 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:51:56,362 - INFO - Accuracy: 0.8707, Precision: 0.8448, Recall: 0.9111, F1 Score: 0.8767
+2024-12-09 16:51:56,365 - INFO - ROC AUC: 0.9383
+2024-12-09 16:51:56,365 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:51:56,365 - INFO - Training on 13952 samples...
+2024-12-09 16:51:56,376 - INFO - Train epoch: 71 [0/13952 (0%)]	Loss: 0.204493
+2024-12-09 16:51:57,891 - INFO - Train epoch: 71 [354080/13952 (73%)]	Loss: 0.247677
+2024-12-09 16:51:58,422 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:51:58,699 - INFO - Accuracy: 0.8707, Precision: 0.8444, Recall: 0.9117, F1 Score: 0.8768
+2024-12-09 16:51:58,701 - INFO - ROC AUC: 0.9383
+2024-12-09 16:51:58,701 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:51:58,701 - INFO - Training on 13952 samples...
+2024-12-09 16:51:58,711 - INFO - Train epoch: 72 [0/13952 (0%)]	Loss: 0.200715
+2024-12-09 16:52:00,318 - INFO - Train epoch: 72 [314720/13952 (73%)]	Loss: 0.215117
+2024-12-09 16:52:00,877 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:52:01,170 - INFO - Accuracy: 0.8611, Precision: 0.8358, Recall: 0.9019, F1 Score: 0.8676
+2024-12-09 16:52:01,172 - INFO - ROC AUC: 0.9299
+2024-12-09 16:52:01,172 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:52:01,172 - INFO - Training on 13952 samples...
+2024-12-09 16:52:01,185 - INFO - Train epoch: 73 [0/13952 (0%)]	Loss: 0.212579
+2024-12-09 16:52:02,696 - INFO - Train epoch: 73 [299360/13952 (73%)]	Loss: 0.281702
+2024-12-09 16:52:03,240 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:52:03,527 - INFO - Accuracy: 0.8709, Precision: 0.8412, Recall: 0.9174, F1 Score: 0.8777
+2024-12-09 16:52:03,528 - INFO - ROC AUC: 0.9377
+2024-12-09 16:52:03,528 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:52:03,528 - INFO - Training on 13952 samples...
+2024-12-09 16:52:03,538 - INFO - Train epoch: 74 [0/13952 (0%)]	Loss: 0.131360
+2024-12-09 16:52:05,112 - INFO - Train epoch: 74 [331040/13952 (73%)]	Loss: 0.141938
+2024-12-09 16:52:05,641 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:52:05,919 - INFO - Accuracy: 0.8683, Precision: 0.8408, Recall: 0.9117, F1 Score: 0.8748
+2024-12-09 16:52:05,920 - INFO - ROC AUC: 0.9343
+2024-12-09 16:52:05,920 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:52:05,921 - INFO - Training on 13952 samples...
+2024-12-09 16:52:05,930 - INFO - Train epoch: 75 [0/13952 (0%)]	Loss: 0.212805
+2024-12-09 16:52:07,484 - INFO - Train epoch: 75 [288000/13952 (73%)]	Loss: 0.097784
+2024-12-09 16:52:08,027 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:52:08,307 - INFO - Accuracy: 0.8681, Precision: 0.8382, Recall: 0.9151, F1 Score: 0.8750
+2024-12-09 16:52:08,309 - INFO - ROC AUC: 0.9331
+2024-12-09 16:52:08,309 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:52:08,309 - INFO - Training on 13952 samples...
+2024-12-09 16:52:08,319 - INFO - Train epoch: 76 [0/13952 (0%)]	Loss: 0.183548
+2024-12-09 16:52:09,863 - INFO - Train epoch: 76 [323040/13952 (73%)]	Loss: 0.300871
+2024-12-09 16:52:10,403 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:52:10,687 - INFO - Accuracy: 0.8663, Precision: 0.8428, Recall: 0.9037, F1 Score: 0.8722
+2024-12-09 16:52:10,689 - INFO - ROC AUC: 0.9391
+2024-12-09 16:52:10,689 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:52:10,689 - INFO - Training on 13952 samples...
+2024-12-09 16:52:10,699 - INFO - Train epoch: 77 [0/13952 (0%)]	Loss: 0.074108
+2024-12-09 16:52:12,301 - INFO - Train epoch: 77 [297600/13952 (73%)]	Loss: 0.158589
+2024-12-09 16:52:12,901 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:52:13,194 - INFO - Accuracy: 0.8675, Precision: 0.8556, Recall: 0.8870, F1 Score: 0.8711
+2024-12-09 16:52:13,196 - INFO - ROC AUC: 0.9369
+2024-12-09 16:52:13,196 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:52:13,196 - INFO - Training on 13952 samples...
+2024-12-09 16:52:13,208 - INFO - Train epoch: 78 [0/13952 (0%)]	Loss: 0.130253
+2024-12-09 16:52:14,945 - INFO - Train epoch: 78 [294400/13952 (73%)]	Loss: 0.126637
+2024-12-09 16:52:15,556 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:52:15,855 - INFO - Accuracy: 0.8571, Precision: 0.8303, Recall: 0.9008, F1 Score: 0.8641
+2024-12-09 16:52:15,857 - INFO - ROC AUC: 0.9289
+2024-12-09 16:52:15,857 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:52:15,857 - INFO - Training on 13952 samples...
+2024-12-09 16:52:15,867 - INFO - Train epoch: 79 [0/13952 (0%)]	Loss: 0.147021
+2024-12-09 16:52:17,557 - INFO - Train epoch: 79 [328160/13952 (73%)]	Loss: 0.201160
+2024-12-09 16:52:18,141 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:52:18,428 - INFO - Accuracy: 0.8576, Precision: 0.8376, Recall: 0.8905, F1 Score: 0.8633
+2024-12-09 16:52:18,430 - INFO - ROC AUC: 0.9286
+2024-12-09 16:52:18,430 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:52:18,430 - INFO - Training on 13952 samples...
+2024-12-09 16:52:18,440 - INFO - Train epoch: 80 [0/13952 (0%)]	Loss: 0.059864
+2024-12-09 16:52:20,147 - INFO - Train epoch: 80 [325280/13952 (73%)]	Loss: 0.315925
+2024-12-09 16:52:20,749 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:52:21,047 - INFO - Accuracy: 0.8602, Precision: 0.8299, Recall: 0.9094, F1 Score: 0.8679
+2024-12-09 16:52:21,048 - INFO - ROC AUC: 0.9275
+2024-12-09 16:52:21,049 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:52:21,049 - INFO - Training on 13952 samples...
+2024-12-09 16:52:21,061 - INFO - Train epoch: 81 [0/13952 (0%)]	Loss: 0.131803
+2024-12-09 16:52:22,847 - INFO - Train epoch: 81 [296640/13952 (73%)]	Loss: 0.125059
+2024-12-09 16:52:23,495 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:52:23,801 - INFO - Accuracy: 0.8678, Precision: 0.8382, Recall: 0.9146, F1 Score: 0.8747
+2024-12-09 16:52:23,803 - INFO - ROC AUC: 0.9330
+2024-12-09 16:52:23,803 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:52:23,803 - INFO - Training on 13952 samples...
+2024-12-09 16:52:23,815 - INFO - Train epoch: 82 [0/13952 (0%)]	Loss: 0.118230
+2024-12-09 16:52:25,610 - INFO - Train epoch: 82 [301280/13952 (73%)]	Loss: 0.138019
+2024-12-09 16:52:26,248 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:52:26,543 - INFO - Accuracy: 0.8707, Precision: 0.8534, Recall: 0.8979, F1 Score: 0.8751
+2024-12-09 16:52:26,545 - INFO - ROC AUC: 0.9364
+2024-12-09 16:52:26,545 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:52:26,545 - INFO - Training on 13952 samples...
+2024-12-09 16:52:26,559 - INFO - Train epoch: 83 [0/13952 (0%)]	Loss: 0.233667
+2024-12-09 16:52:28,329 - INFO - Train epoch: 83 [282560/13952 (73%)]	Loss: 0.190277
+2024-12-09 16:52:28,980 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:52:29,289 - INFO - Accuracy: 0.8721, Precision: 0.8511, Recall: 0.9048, F1 Score: 0.8772
+2024-12-09 16:52:29,291 - INFO - ROC AUC: 0.9366
+2024-12-09 16:52:29,291 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:52:29,291 - INFO - Training on 13952 samples...
+2024-12-09 16:52:29,302 - INFO - Train epoch: 84 [0/13952 (0%)]	Loss: 0.164975
+2024-12-09 16:52:31,105 - INFO - Train epoch: 84 [347520/13952 (73%)]	Loss: 0.099215
+2024-12-09 16:52:31,736 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:52:32,032 - INFO - Accuracy: 0.8655, Precision: 0.8575, Recall: 0.8796, F1 Score: 0.8684
+2024-12-09 16:52:32,034 - INFO - ROC AUC: 0.9336
+2024-12-09 16:52:32,034 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:52:32,034 - INFO - Training on 13952 samples...
+2024-12-09 16:52:32,045 - INFO - Train epoch: 85 [0/13952 (0%)]	Loss: 0.143654
+2024-12-09 16:52:33,830 - INFO - Train epoch: 85 [350720/13952 (73%)]	Loss: 0.081414
+2024-12-09 16:52:34,458 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:52:34,746 - INFO - Accuracy: 0.8602, Precision: 0.8381, Recall: 0.8962, F1 Score: 0.8662
+2024-12-09 16:52:34,748 - INFO - ROC AUC: 0.9287
+2024-12-09 16:52:34,748 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:52:34,748 - INFO - Training on 13952 samples...
+2024-12-09 16:52:34,762 - INFO - Train epoch: 86 [0/13952 (0%)]	Loss: 0.126121
+2024-12-09 16:52:36,544 - INFO - Train epoch: 86 [329760/13952 (73%)]	Loss: 0.059303
+2024-12-09 16:52:37,179 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:52:37,479 - INFO - Accuracy: 0.8655, Precision: 0.8587, Recall: 0.8779, F1 Score: 0.8682
+2024-12-09 16:52:37,481 - INFO - ROC AUC: 0.9343
+2024-12-09 16:52:37,481 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:52:37,481 - INFO - Training on 13952 samples...
+2024-12-09 16:52:37,494 - INFO - Train epoch: 87 [0/13952 (0%)]	Loss: 0.140008
+2024-12-09 16:52:39,288 - INFO - Train epoch: 87 [343520/13952 (73%)]	Loss: 0.128694
+2024-12-09 16:52:39,915 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:52:40,207 - INFO - Accuracy: 0.8672, Precision: 0.8416, Recall: 0.9077, F1 Score: 0.8734
+2024-12-09 16:52:40,209 - INFO - ROC AUC: 0.9343
+2024-12-09 16:52:40,209 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:52:40,209 - INFO - Training on 13952 samples...
+2024-12-09 16:52:40,222 - INFO - Train epoch: 88 [0/13952 (0%)]	Loss: 0.176537
+2024-12-09 16:52:42,022 - INFO - Train epoch: 88 [281760/13952 (73%)]	Loss: 0.094820
+2024-12-09 16:52:42,672 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:52:42,977 - INFO - Accuracy: 0.8655, Precision: 0.8447, Recall: 0.8985, F1 Score: 0.8708
+2024-12-09 16:52:42,979 - INFO - ROC AUC: 0.9301
+2024-12-09 16:52:42,979 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:52:42,979 - INFO - Training on 13952 samples...
+2024-12-09 16:52:42,992 - INFO - Train epoch: 89 [0/13952 (0%)]	Loss: 0.191154
+2024-12-09 16:52:44,820 - INFO - Train epoch: 89 [313760/13952 (73%)]	Loss: 0.155043
+2024-12-09 16:52:45,452 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:52:45,751 - INFO - Accuracy: 0.8709, Precision: 0.8508, Recall: 0.9025, F1 Score: 0.8759
+2024-12-09 16:52:45,753 - INFO - ROC AUC: 0.9363
+2024-12-09 16:52:45,753 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:52:45,753 - INFO - Training on 13952 samples...
+2024-12-09 16:52:45,766 - INFO - Train epoch: 90 [0/13952 (0%)]	Loss: 0.118332
+2024-12-09 16:52:47,519 - INFO - Train epoch: 90 [294880/13952 (73%)]	Loss: 0.184547
+2024-12-09 16:52:48,149 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:52:48,442 - INFO - Accuracy: 0.8672, Precision: 0.8286, Recall: 0.9289, F1 Score: 0.8759
+2024-12-09 16:52:48,443 - INFO - ROC AUC: 0.9347
+2024-12-09 16:52:48,443 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:52:48,443 - INFO - Training on 13952 samples...
+2024-12-09 16:52:48,456 - INFO - Train epoch: 91 [0/13952 (0%)]	Loss: 0.206172
+2024-12-09 16:52:50,179 - INFO - Train epoch: 91 [330560/13952 (73%)]	Loss: 0.184539
+2024-12-09 16:52:50,791 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:52:51,075 - INFO - Accuracy: 0.8623, Precision: 0.8372, Recall: 0.9025, F1 Score: 0.8687
+2024-12-09 16:52:51,077 - INFO - ROC AUC: 0.9315
+2024-12-09 16:52:51,077 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:52:51,077 - INFO - Training on 13952 samples...
+2024-12-09 16:52:51,087 - INFO - Train epoch: 92 [0/13952 (0%)]	Loss: 0.230052
+2024-12-09 16:52:52,784 - INFO - Train epoch: 92 [323200/13952 (73%)]	Loss: 0.284614
+2024-12-09 16:52:53,390 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:52:53,685 - INFO - Accuracy: 0.8681, Precision: 0.8515, Recall: 0.8945, F1 Score: 0.8725
+2024-12-09 16:52:53,686 - INFO - ROC AUC: 0.9342
+2024-12-09 16:52:53,687 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:52:53,687 - INFO - Training on 13952 samples...
+2024-12-09 16:52:53,697 - INFO - Train epoch: 93 [0/13952 (0%)]	Loss: 0.225464
+2024-12-09 16:52:55,430 - INFO - Train epoch: 93 [313120/13952 (73%)]	Loss: 0.180532
+2024-12-09 16:52:56,048 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:52:56,336 - INFO - Accuracy: 0.8698, Precision: 0.8532, Recall: 0.8962, F1 Score: 0.8742
+2024-12-09 16:52:56,338 - INFO - ROC AUC: 0.9293
+2024-12-09 16:52:56,338 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:52:56,338 - INFO - Training on 13952 samples...
+2024-12-09 16:52:56,351 - INFO - Train epoch: 94 [0/13952 (0%)]	Loss: 0.078862
+2024-12-09 16:52:58,063 - INFO - Train epoch: 94 [299040/13952 (73%)]	Loss: 0.261530
+2024-12-09 16:52:58,673 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:52:58,983 - INFO - Accuracy: 0.8614, Precision: 0.8359, Recall: 0.9025, F1 Score: 0.8679
+2024-12-09 16:52:58,985 - INFO - ROC AUC: 0.9306
+2024-12-09 16:52:58,985 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:52:58,985 - INFO - Training on 13952 samples...
+2024-12-09 16:52:58,996 - INFO - Train epoch: 95 [0/13952 (0%)]	Loss: 0.093729
+2024-12-09 16:53:00,723 - INFO - Train epoch: 95 [343840/13952 (73%)]	Loss: 0.137541
+2024-12-09 16:53:01,345 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:53:01,641 - INFO - Accuracy: 0.8643, Precision: 0.8386, Recall: 0.9054, F1 Score: 0.8707
+2024-12-09 16:53:01,642 - INFO - ROC AUC: 0.9311
+2024-12-09 16:53:01,642 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:53:01,643 - INFO - Training on 13952 samples...
+2024-12-09 16:53:01,654 - INFO - Train epoch: 96 [0/13952 (0%)]	Loss: 0.194292
+2024-12-09 16:53:03,371 - INFO - Train epoch: 96 [331520/13952 (73%)]	Loss: 0.177529
+2024-12-09 16:53:03,976 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:53:04,275 - INFO - Accuracy: 0.8608, Precision: 0.8412, Recall: 0.8928, F1 Score: 0.8662
+2024-12-09 16:53:04,276 - INFO - ROC AUC: 0.9318
+2024-12-09 16:53:04,276 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:53:04,276 - INFO - Training on 13952 samples...
+2024-12-09 16:53:04,287 - INFO - Train epoch: 97 [0/13952 (0%)]	Loss: 0.106859
+2024-12-09 16:53:06,006 - INFO - Train epoch: 97 [305760/13952 (73%)]	Loss: 0.059212
+2024-12-09 16:53:06,622 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:53:06,916 - INFO - Accuracy: 0.8573, Precision: 0.8315, Recall: 0.8997, F1 Score: 0.8642
+2024-12-09 16:53:06,918 - INFO - ROC AUC: 0.9274
+2024-12-09 16:53:06,918 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:53:06,919 - INFO - Training on 13952 samples...
+2024-12-09 16:53:06,929 - INFO - Train epoch: 98 [0/13952 (0%)]	Loss: 0.155390
+2024-12-09 16:53:08,665 - INFO - Train epoch: 98 [309760/13952 (73%)]	Loss: 0.160541
+2024-12-09 16:53:09,304 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:53:09,612 - INFO - Accuracy: 0.8591, Precision: 0.8440, Recall: 0.8842, F1 Score: 0.8636
+2024-12-09 16:53:09,614 - INFO - ROC AUC: 0.9303
+2024-12-09 16:53:09,614 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:53:09,614 - INFO - Training on 13952 samples...
+2024-12-09 16:53:09,626 - INFO - Train epoch: 99 [0/13952 (0%)]	Loss: 0.136516
+2024-12-09 16:53:11,425 - INFO - Train epoch: 99 [334880/13952 (73%)]	Loss: 0.219737
+2024-12-09 16:53:12,050 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:53:12,340 - INFO - Accuracy: 0.8623, Precision: 0.8495, Recall: 0.8836, F1 Score: 0.8662
+2024-12-09 16:53:12,342 - INFO - ROC AUC: 0.9305
+2024-12-09 16:53:12,342 - INFO - Top 30 predictions saved to top_30_predictions.csv
+2024-12-09 16:53:12,342 - INFO - Training on 13952 samples...
+2024-12-09 16:53:12,355 - INFO - Train epoch: 100 [0/13952 (0%)]	Loss: 0.096323
+2024-12-09 16:53:14,131 - INFO - Train epoch: 100 [335360/13952 (73%)]	Loss: 0.060408
+2024-12-09 16:53:14,757 - INFO - Making predictions for 3488 samples...
+2024-12-09 16:53:15,049 - INFO - Accuracy: 0.8678, Precision: 0.8476, Recall: 0.8997, F1 Score: 0.8729
+2024-12-09 16:53:15,050 - INFO - ROC AUC: 0.9319
+2024-12-09 16:53:15,050 - INFO - Top 30 predictions saved to top_30_predictions.csv

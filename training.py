@@ -14,7 +14,7 @@ from sklearn.metrics import roc_curve, roc_auc_score, precision_recall_curve, au
 
 # training function at each epoch
 
-drug1 = ""
+
 
 
 
@@ -89,6 +89,33 @@ def accuracy(true_labels, preds):
     return np.mean(true_labels == preds)
 
 
+
+def save_top_30_predictions(probs, indices, file_name='top_30_predictions.csv'):
+    # Sort by probability (in descending order)
+    sorted_indices = np.argsort(probs)[::-1]  # sort in descending order
+    sorted_probs = probs[sorted_indices]
+    # sorted_labels = labels[sorted_indices]
+    sorted_indices = indices[sorted_indices]
+
+    # Create a DataFrame to save the top 30 predictions
+    top_30_df = pd.DataFrame({
+        'Index': sorted_indices[:30],
+        'Probability': sorted_probs[:30],
+        # 'True_Label': sorted_labels[:30]
+    })
+
+    # Save to CSV
+    top_30_df.to_csv(file_name, index=False)
+    logging.info(f'Top 30 predictions saved to {file_name}')
+
+
+
+
+
+
+
+
+
 modeling =GCNNetmuti
 
 model_st = modeling.__name__
@@ -161,6 +188,10 @@ else:
             torch.save(model.state_dict(), model_file_name)
             # Sort by probability in descending order and select top 30
             # Create a DataFrame to sort and save results
+
+            # Save sorted results
+            save_top_30_predictions(probs, indices)
+
 
             best_epoch = epoch + 1
             best_acc = recall

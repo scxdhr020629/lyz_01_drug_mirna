@@ -88,5 +88,5 @@ class TestbedDataset(InMemoryDataset):
         print('Graph construction done. Saving to file.')
         data, slices = self.collate(data_list)
         # save preprocessed data:
-        # torch.save((data, slices), self.processed_paths[0])
+        torch.save((data, slices), self.processed_paths[0])
 
