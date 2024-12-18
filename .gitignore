@@ -1,0 +1,8 @@
+
+*.pt
+__pycache__/utils.cpython-39.pyc
+*.xlsx
+*.csv
+*.txt
+__pycache__/utils.cpython-39.pyc
+__pycache__/utils.cpython-39.pyc
