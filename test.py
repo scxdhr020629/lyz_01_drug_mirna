@@ -279,6 +279,33 @@ def save_top_30_predictions(probs, indices, file_name='top_30_predictions_02.csv
 
 
 
+# 保存 rna信息
+import pandas as pd
+
+
+def map_top_30_to_rna(top_30_file, output_file='top_30_miRNA_predictions.csv'):
+    # 1. 读取miRNA_sequences文件
+    miRNA_df = rna  # 加载miRNA序列文件
+
+    # 2. 读取top 30预测文件
+    top_30_df = pd.read_csv(top_30_file)  # 加载top 30预测文件
+
+    # 3. 根据Index，将top 30的预测与miRNA_sequences的数据合并
+    merged_df = pd.merge(top_30_df, miRNA_df, left_on='Index', right_index=True, how='left')
+
+    # 4. 选择需要保存的列
+    result_df = merged_df[['RNA_ID', 'Sequence', 'Probability']]
+
+    # 5. 保存为CSV文件
+    result_df.to_csv(output_file, index=False)
+    print(f'Top 30 miRNA predictions saved to {output_file}')
+    # return result_df
+
+
+# 示例：调用函数，假设文件路径正确
+
+# miRNA_file = 'miRNA_sequences.xlsx'
+
 
 
 
@@ -349,3 +376,5 @@ else:
     save_top_30_predictions(probs, indices)
 
     # 现在是把前面的数据都给获取到了 但是我们要把数据和mirna对应上
+    top_30_file = 'top_30_predictions_02.csv'
+    map_top_30_to_rna(top_30_file)
