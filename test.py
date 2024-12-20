@@ -229,6 +229,7 @@ def predicting(model, device, loader):
 # 先随便写的
 def save_top_30_predictions(probs, indices, file_name='top_30_predictions_01.csv'):
     # Sort by probability (in descending order)
+    # sorted_indices = np.argsort(probs)[::-1]  # sort in descending order
     sorted_indices = np.argsort(probs)[::-1]  # sort in descending order
     sorted_probs = probs[sorted_indices]
     # sorted_labels = labels[sorted_indices]
@@ -245,6 +246,36 @@ def save_top_30_predictions(probs, indices, file_name='top_30_predictions_01.csv
     top_30_df.to_csv(file_name, index=False)
     logging.info(f'Top 30 predictions saved to {file_name}')
 
+def save_predictions(probs, indices, file_name='all_predict_02.csv'):
+    # Convert probabilities and indices to a DataFrame
+    predictions_df = pd.DataFrame({
+        'Index': indices,           # 保存样本索引
+        'Probability': probs        # 保存预测概率
+    })
+
+    # Save to CSV without sorting
+    predictions_df.to_csv(file_name, index=False)
+    logging.info(f'Predictions saved to {file_name}')
+
+
+# 检测一下这段代码写的是否正确
+def save_top_30_predictions(probs, indices, file_name='top_30_predictions_02.csv'):
+    # Sort by probability (in descending order)
+    sorted_indices = np.argsort(probs)[::-1]  # sort in descending order
+    sorted_probs = probs[sorted_indices]
+    # sorted_labels = labels[sorted_indices]
+    sorted_indices = indices[sorted_indices]
+
+    # Create a DataFrame to save the top 30 predictions
+    top_30_df = pd.DataFrame({
+        'Index': sorted_indices[:30],
+        'Probability': sorted_probs[:30],
+        # 'True_Label': sorted_labels[:30]
+    })
+
+    # Save to CSV
+    top_30_df.to_csv(file_name, index=False)
+    logging.info(f'Top 30 predictions saved to {file_name}')
 
 
 
@@ -313,6 +344,8 @@ else:
 
 
     probs, indices = predicting(model, device, test_loader)
+
+    save_predictions(probs, indices)
     save_top_30_predictions(probs, indices)
 
-
+    # 现在是把前面的数据都给获取到了 但是我们要把数据和mirna对应上
