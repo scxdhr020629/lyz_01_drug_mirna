@@ -1,3 +1,3 @@
-2024-12-20 19:51:14,481 - INFO - Making predictions for 1578 samples...
-2024-12-20 19:51:15,186 - INFO - Predictions saved to all_predict_02.csv
-2024-12-20 19:51:15,187 - INFO - Top 30 predictions saved to top_30_predictions_02.csv
+2024-12-26 15:22:32,203 - INFO - Making predictions for 1578 samples...
+2024-12-26 15:22:32,725 - INFO - Predictions saved to all_predict_07.csv
+2024-12-26 15:22:32,726 - INFO - Top 30 predictions saved to top_30_predictions_07.csv

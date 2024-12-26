@@ -2,8 +2,9 @@
 # 先假设输入的字符串 s 然后传换成三列csv 再转换成四列csv 然后进行model.eval 模式 进行预测 然后保存数据结果
 
 # 这里的raw_data 之后从前端传进来
-raw_data = 'FC1=CNC(=O)NC1=O'
-
+# raw_data = 'FC1=CNC(=O)NC1=O'
+# raw_data = 'CN1N=NC2=C(N=CN2C1=O)C(N)=O'
+raw_data = 'CC(C)C1=CC=CC(C(C)C)=C1O'
 # 一些processdata的函数代码
 
 import pandas as pd
@@ -122,7 +123,7 @@ CHARISOSMILEN = 66
 drugs = pd.read_excel('data/drug_id_smiles.xlsx')
 rna = pd.read_excel('data/miRNA_sequences.xlsx')
 
-
+str_i = '7'
 
 
 # 这里先处理一下 用process_smiles
@@ -142,7 +143,7 @@ final_df = pd.DataFrame({
 })
 
 # 保存为 CSV 文件
-output_file = 'data/processed/last/_mytest1.csv'
+output_file = 'data/processed/last/_mytest'+str_i+'.csv'
 final_df.to_csv(output_file, index=False)
 
 print(f"CSV 文件已保存至: {output_file}")
@@ -157,7 +158,8 @@ opts = ['mytest']
 for i in range(1, 2):
     compound_iso_smiles = []
     for opt in opts:
-        df = pd.read_csv('data/processed/last/' + '_' + opt +str(i)+ '.csv')
+        # df = pd.read_csv('data/processed/last/' + '_' + opt +str(i)+ '.csv')
+        df = pd.read_csv('data/processed/last/' + '_' + opt + str_i + '.csv')
         compound_iso_smiles += list(df['compound_iso_smiles'])
     compound_iso_smiles = set(compound_iso_smiles)
     smile_graph = {}
@@ -166,12 +168,17 @@ for i in range(1, 2):
         smile_graph[smile] = g
 
     # # convert to PyTorch data format
-    df = pd.read_csv('data/processed/last/'+ '_mytest'+str(i)+'.csv')
+    # df = pd.read_csv('data/processed/last/'+ '_mytest'+str(i)+'.csv')
+    df = pd.read_csv('data/processed/last/' + '_mytest' + str_i + '.csv')
     test_drugs, test_prots, test_Y = list(df['compound_iso_smiles']), list(df['target_sequence']), list(df['affinity'])
     XT = [seq_cat(t,24) for t in test_prots]
     test_sdrugs=[label_smiles(t,CHARISOSMISET,100) for t in test_drugs]
     test_drugs, test_prots, test_Y,test_seqdrugs = np.asarray(test_drugs), np.asarray(XT), np.asarray(test_Y),np.asarray(test_sdrugs)
-    test_data = TestbedDataset(root='data', dataset='last/'+'_mytest' + str(i), xd=test_drugs, xt=test_prots, y=test_Y,
+    # test_data = TestbedDataset(root='data', dataset='last/'+'_mytest' + str(i), xd=test_drugs, xt=test_prots, y=test_Y,
+    #                            z=test_seqdrugs,
+    #                            smile_graph=smile_graph)
+    test_data = TestbedDataset(root='data', dataset='last/' + '_mytest' + str_i, xd=test_drugs, xt=test_prots,
+                               y=test_Y,
                                z=test_seqdrugs,
                                smile_graph=smile_graph)
 
@@ -205,24 +212,7 @@ def predicting(model, device, loader):
     sample_indices = np.array(sample_indices).flatten()
     total_labels = np.array(total_labels).flatten()
 
-    # accuracy = accuracy_score(total_labels, (total_probs >= 0.5).astype(int))
-    # precision = precision_score(total_labels, (total_probs >= 0.5).astype(int), zero_division=1)
-    # recall = recall_score(total_labels, (total_probs >= 0.5).astype(int))
-    # f1 = f1_score(total_labels, (total_probs >= 0.5).astype(int))
 
-    # logging.info(f"Accuracy: {accuracy:.4f}, Precision: {precision:.4f}, Recall: {recall:.4f}, F1 Score: {f1:.4f}")
-    #
-    # roc_auc = roc_auc_score(total_labels, total_probs)
-    # precision_vals, recall_vals, _ = precision_recall_curve(total_labels, total_probs)
-    # sorted_indices = np.argsort(recall_vals)
-    # recall_vals = recall_vals[sorted_indices]
-    # precision_vals = precision_vals[sorted_indices]
-    # pr_auc = auc(recall_vals, precision_vals)
-    #
-    # logging.info(f"ROC AUC: {roc_auc:.4f}")
-
-    # return total_probs, sample_indices, accuracy, precision, recall, f1, pr_auc, total_labels
-    # return total_probs, sample_indices, accuracy, precision, recall, f1, pr_auc
     return total_probs, sample_indices
 
 
@@ -342,15 +332,16 @@ logging.basicConfig(filename=log_filename, filemode='w', format='%(asctime)s - %
 
 
 
-processed_data_file_test = 'data/processed/last/' + '_mytest1'+'.pt'
+# processed_data_file_test = 'data/processed/last/' + '_mytest1'+'.pt'
+processed_data_file_test = 'data/processed/last/' + '_mytest'+str_i+'.pt'
 if ( (not os.path.isfile(processed_data_file_test))):
     print('please run process_data_old.py to prepare data in pytorch format!')
 else:
     # train_data = TestbedDataset(root='data', dataset='_train1')
     # test_data = TestbedDataset(root='data', dataset='_test1')
 
-    test_data = TestbedDataset(root='data', dataset='last/_mytest1')
-
+    # test_data = TestbedDataset(root='data', dataset='last/_mytest1')
+    test_data = TestbedDataset(root='data', dataset='last/_mytest'+str_i)
     test_loader = DataLoader(test_data, batch_size=TEST_BATCH_SIZE,shuffle=False,drop_last=True)
 
     # training the model
@@ -372,9 +363,9 @@ else:
 
     probs, indices = predicting(model, device, test_loader)
 
-    save_predictions(probs, indices)
-    save_top_30_predictions(probs, indices)
+    save_predictions(probs, indices,'all_predict_0'+str_i+'.csv')
+    save_top_30_predictions(probs, indices,'top_30_predictions_0'+str_i+'.csv')
 
     # 现在是把前面的数据都给获取到了 但是我们要把数据和mirna对应上
-    top_30_file = 'top_30_predictions_02.csv'
-    map_top_30_to_rna(top_30_file)
+    top_30_file = 'top_30_predictions_0'+str_i+'.csv'
+    map_top_30_to_rna(top_30_file,'top_30_miRNA_predictions_0'+str_i+'.csv')
